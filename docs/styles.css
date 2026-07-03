@@ -388,7 +388,6 @@ h3 {
 .sample-item,
 .checklist-grid article,
 .checklist-panel article,
-.logo-concept,
 .brand-section {
   background: var(--panel-soft);
   border: 1px solid rgba(117, 236, 255, 0.16);
@@ -455,8 +454,7 @@ select:focus {
 .sample-hero,
 .sample-list,
 .checklist-grid,
-.brand-section,
-.logo-concept-grid {
+.brand-section {
   padding: 56px 0;
 }
 
@@ -488,8 +486,7 @@ select:focus {
 .price-card:hover,
 .faq-grid article:hover,
 .sample-item:hover,
-.checklist-grid article:hover,
-.logo-concept:hover {
+.checklist-grid article:hover {
   border-color: rgba(117, 236, 255, 0.42);
   transform: translateY(-2px);
   transition: transform 180ms ease, border-color 180ms ease;
@@ -654,60 +651,20 @@ select:focus {
 
 .sample-item h2,
 .checklist-grid h2,
-.checklist-panel h2,
-.logo-concept h2 {
+.checklist-panel h2 {
   margin-bottom: 10px;
   font-size: 1.85rem;
 }
 
 .sample-item p,
 .checklist-grid p,
-.checklist-panel p,
-.logo-concept p {
+.checklist-panel p {
   color: var(--muted);
   line-height: 1.6;
 }
 
 .brand-section {
   padding: 24px;
-}
-
-.logo-preview-row {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
-}
-
-.logo-preview-row img {
-  width: 100%;
-  aspect-ratio: 1;
-  padding: 18px;
-  background: #061225;
-  border: 1px solid rgba(117, 236, 255, 0.2);
-  border-radius: 8px;
-}
-
-.logo-concept-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
-}
-
-.logo-concept {
-  display: grid;
-  grid-template-columns: 142px minmax(0, 1fr);
-  gap: 18px;
-  align-items: center;
-  padding: 20px;
-}
-
-.logo-concept img {
-  width: 142px;
-  height: 142px;
-  padding: 10px;
-  background: #061225;
-  border: 1px solid rgba(117, 236, 255, 0.2);
-  border-radius: 8px;
 }
 
 .footer {
@@ -782,13 +739,8 @@ select:focus {
   .toolbar,
   .pricing-grid,
   .faq-grid,
-  .checklist-grid,
-  .logo-concept-grid {
+  .checklist-grid {
     grid-template-columns: 1fr;
-  }
-
-  .logo-preview-row {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -815,8 +767,7 @@ select:focus {
 
   .hero-panel,
   .opportunity-card,
-  .checklist-panel,
-  .logo-concept {
+  .checklist-panel {
     grid-template-columns: 1fr;
   }
 
@@ -864,12 +815,4 @@ select:focus {
     width: 100%;
   }
 
-  .logo-preview-row {
-    grid-template-columns: 1fr;
-  }
-
-  .logo-concept img {
-    width: 118px;
-    height: 118px;
-  }
 }

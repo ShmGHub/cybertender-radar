@@ -40,7 +40,7 @@ def main() -> int:
         (f"{BASE_URL}/sample-brief.html", "Sample daily brief"),
         (f"{BASE_URL}/trial.html", "Get a tailored cyber tender sample"),
         (f"{BASE_URL}/bid-checklist.html", "Qualify cyber tenders"),
-        (f"{BASE_URL}/brand.html", "Choose the CyberTender Radar logo"),
+        (f"{BASE_URL}/brand.html", "CyberTender Radar turns public tender noise into cyber sales signals"),
         (f"{BASE_URL}/feed.xml", "CyberTender Radar"),
         (f"{BASE_URL}/robots.txt", "User-agent:"),
     ]
