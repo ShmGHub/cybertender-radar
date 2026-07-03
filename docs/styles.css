@@ -101,6 +101,13 @@ main {
   max-width: 920px;
 }
 
+.checklist-panel {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 34px;
+}
+
 .plain-page h1 {
   margin-bottom: 20px;
   font-size: clamp(2.8rem, 7vw, 5rem);
@@ -278,7 +285,8 @@ select {
 .source-section,
 .faq-section,
 .sample-hero,
-.sample-list {
+.sample-list,
+.checklist-grid {
   padding: 56px 0;
 }
 
@@ -447,19 +455,31 @@ select {
   gap: 14px;
 }
 
-.sample-item {
+.checklist-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.sample-item,
+.checklist-grid article,
+.checklist-panel article {
   padding: 20px;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
 }
 
-.sample-item h2 {
+.sample-item h2,
+.checklist-grid h2,
+.checklist-panel h2 {
   margin-bottom: 10px;
   font-size: clamp(1.5rem, 3vw, 2.25rem);
 }
 
-.sample-item p {
+.sample-item p,
+.checklist-grid p,
+.checklist-panel p {
   color: var(--muted);
   line-height: 1.6;
 }
@@ -495,7 +515,9 @@ select {
   .toolbar,
   .opportunity-card,
   .pricing-grid,
-  .faq-grid {
+  .faq-grid,
+  .checklist-grid,
+  .checklist-panel {
     grid-template-columns: 1fr;
   }
 

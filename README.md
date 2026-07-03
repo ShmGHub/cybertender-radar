@@ -74,3 +74,4 @@ material, and subscribers should verify the original notice before bidding.
 - Outreach draft queue: `business/outreach_draft_queue.md`
 - Follow-up draft queue: `business/followup_draft_queue.md`
 - Daily sales packet: `business/daily_sales_packet.md`
+- KPI snapshot: `business/kpi_snapshot.md`

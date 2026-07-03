@@ -13,12 +13,14 @@ Workflow:
 - Runs `python scripts/build_outreach_draft_queue.py`
 - Runs `python scripts/build_followup_draft_queue.py`
 - Runs `python scripts/build_sales_packet.py`
+- Runs `python scripts/build_kpi_snapshot.py`
 - Writes `docs/data/opportunities.json`
 - Writes `docs/data/opportunities.csv`
 - Writes `docs/data/latest_brief.md`
 - Writes `docs/feed.xml`
 - Writes `docs/sample-brief.html`
 - Writes daily business sales queues
+- Writes `business/kpi_snapshot.md`
 - Commits changed feed files back to `main`
 
 ## Live URLs

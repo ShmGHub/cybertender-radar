@@ -27,6 +27,7 @@ jobs:
           python scripts/build_outreach_draft_queue.py
           python scripts/build_followup_draft_queue.py
           python scripts/build_sales_packet.py
+          python scripts/build_kpi_snapshot.py
         env:
           SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
 
@@ -34,7 +35,7 @@ jobs:
         run: |
           git config user.name "cybertender-radar-bot"
           git config user.email "cybertender-radar-bot@users.noreply.github.com"
-          git add docs data business/daily_sales_packet.md business/outreach_followups_due.csv business/outreach_draft_queue.csv business/outreach_draft_queue.md business/followup_draft_queue.csv business/followup_draft_queue.md
+          git add docs data business/daily_sales_packet.md business/kpi_snapshot.md business/outreach_followups_due.csv business/outreach_draft_queue.csv business/outreach_draft_queue.md business/followup_draft_queue.csv business/followup_draft_queue.md
           if git diff --cached --quiet; then
             echo "No feed changes to commit."
           else
