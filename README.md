@@ -62,5 +62,7 @@ material, and subscribers should verify the original notice before bidding.
 
 - Customer onboarding: `business/customer_welcome_email.md`
 - Outreach sequence: `business/outreach_sequence.md`
+- First outreach batch: `business/first_outreach_batch.md`
+- Daily sales checklist: `business/daily_sales_checklist.md`
 - Operations runbook: `business/operations_runbook.md`
 - Outreach tracker: `business/outreach_tracker.csv`
