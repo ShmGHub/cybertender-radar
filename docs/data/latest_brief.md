@@ -1,6 +1,6 @@
 # CyberTender Radar Daily Brief
 
-Generated: 2026-07-03T13:03:40.274748Z
+Generated: 2026-07-03T13:06:47.524335Z
 
 Tracked opportunities: 7
 High-confidence matches: 3
