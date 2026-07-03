@@ -44,6 +44,9 @@ PRODUCT_PROFILE = {
     "targetCustomer": "Small cybersecurity consultancies, MSPs, and IT services firms",
 }
 
+SITE_URL = "https://shmghub.github.io/cybertender-radar/"
+CHECKOUT_URL = "https://cybertender.gumroad.com/l/msidq"
+
 CONTRACT_KEYWORDS = [
     "cyber security",
     "cybersecurity",
@@ -188,7 +191,7 @@ def clean_text(value: Any) -> str:
     if value is None:
         return ""
     text = html.unescape(str(value))
-    text = text.replace("\u00c2\u00a3", "\u00a3")
+    text = text.replace("\u00c2\u00a3", "GBP ").replace("\u00a3", "GBP ")
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
@@ -231,7 +234,7 @@ def money_label(value: float | int | None, currency: str) -> str:
     if not value:
         return "Value not disclosed"
     amount = float(value)
-    symbol = "\u00a3" if currency == "GBP" else "$" if currency == "USD" else f"{currency} "
+    symbol = "GBP " if currency == "GBP" else "$" if currency == "USD" else f"{currency} "
     if amount >= 1_000_000:
         return f"{symbol}{amount / 1_000_000:.1f}m"
     if amount >= 1_000:
@@ -671,7 +674,7 @@ def write_csv(feed: dict[str, Any]) -> None:
         "whyItMatters",
     ]
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         for item in feed["opportunities"]:
             writer.writerow({field: item.get(field, "") for field in fields})
@@ -707,11 +710,147 @@ def write_brief(feed: dict[str, Any]) -> None:
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
+def write_rss(feed: dict[str, Any]) -> None:
+    path = ROOT / "docs" / "feed.xml"
+    generated = feed["generatedAt"]
+    items = []
+    for opportunity in feed["opportunities"][:25]:
+        title = escape_xml(opportunity.get("title") or "Untitled opportunity")
+        link = escape_xml(opportunity.get("url") or SITE_URL)
+        guid = escape_xml(opportunity.get("id") or link)
+        buyer = escape_xml(opportunity.get("buyer") or "Unknown buyer")
+        value = escape_xml(opportunity.get("valueLabel") or "Value not disclosed")
+        deadline = escape_xml(opportunity.get("deadlineDate") or "Not specified")
+        why = escape_xml(opportunity.get("whyItMatters") or "")
+        items.append(
+            "\n".join(
+                [
+                    "    <item>",
+                    f"      <title>{title}</title>",
+                    f"      <link>{link}</link>",
+                    f"      <guid isPermaLink=\"false\">{guid}</guid>",
+                    f"      <pubDate>{rss_date(generated)}</pubDate>",
+                    "      <description>"
+                    f"{buyer} | {value} | deadline {deadline}. {why}"
+                    "</description>",
+                    "    </item>",
+                ]
+            )
+        )
+
+    xml = "\n".join(
+        [
+            "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+            "<rss version=\"2.0\">",
+            "  <channel>",
+            f"    <title>{escape_xml(PRODUCT_PROFILE['name'])}</title>",
+            f"    <link>{escape_xml(SITE_URL)}</link>",
+            "    <description>Daily ranked cyber and IT public-sector opportunities.</description>",
+            f"    <lastBuildDate>{rss_date(generated)}</lastBuildDate>",
+            *items,
+            "  </channel>",
+            "</rss>",
+            "",
+        ]
+    )
+    path.write_text(xml, encoding="utf-8")
+
+
+def write_sample_brief(feed: dict[str, Any]) -> None:
+    path = ROOT / "docs" / "sample-brief.html"
+    top_items = feed["opportunities"][:5]
+    rows = []
+    for item in top_items:
+        tags = ", ".join(item.get("tags", [])[:4]) or "Cyber/IT"
+        rows.append(
+            "\n".join(
+                [
+                    "<article class=\"sample-item\">",
+                    f"  <p class=\"eyebrow\">{escape_html(item.get('confidence'))} confidence | {escape_html(tags)}</p>",
+                    f"  <h2>{escape_html(item.get('title'))}</h2>",
+                    f"  <p>{escape_html(item.get('buyer') or 'Unknown buyer')} | {escape_html(item.get('valueLabel'))} | deadline {escape_html(item.get('deadlineDate') or 'not specified')}</p>",
+                    f"  <p>{escape_html(item.get('whyItMatters'))}</p>",
+                    f"  <a class=\"text-link\" href=\"{escape_attr(item.get('url'))}\" target=\"_blank\" rel=\"noreferrer\">Official notice</a>",
+                    "</article>",
+                ]
+            )
+        )
+
+    html_doc = "\n".join(
+        [
+            "<!doctype html>",
+            "<html lang=\"en\">",
+            "  <head>",
+            "    <meta charset=\"utf-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "    <title>Sample Brief | CyberTender Radar</title>",
+            "    <meta name=\"description\" content=\"A sample CyberTender Radar daily tender brief.\">",
+            "    <link rel=\"stylesheet\" href=\"styles.css\">",
+            "  </head>",
+            "  <body>",
+            "    <header class=\"topbar\">",
+            "      <a class=\"brand\" href=\"index.html\" aria-label=\"CyberTender Radar home\">",
+            "        <span class=\"brand-mark\">CTR</span>",
+            "        <span>CyberTender Radar</span>",
+            "      </a>",
+            "      <nav aria-label=\"Primary navigation\">",
+            "        <a href=\"index.html#feed\">Feed</a>",
+            "        <a href=\"index.html#pricing\">Pricing</a>",
+            "        <a href=\"feed.xml\">RSS</a>",
+            "      </nav>",
+            "    </header>",
+            "    <main class=\"sample-page\">",
+            "      <section class=\"sample-hero\">",
+            "        <p class=\"eyebrow\">Sample daily brief</p>",
+            "        <h1>Five ranked opportunities from today's feed.</h1>",
+            "        <p class=\"lede\">Use this sample to judge whether CyberTender Radar fits your bid pipeline before subscribing.</p>",
+            "        <div class=\"hero-actions\">",
+            f"          <a class=\"button primary\" href=\"{CHECKOUT_URL}\" target=\"_blank\" rel=\"noreferrer\">Subscribe</a>",
+            "          <a class=\"button secondary\" href=\"data/opportunities.csv\">Download CSV</a>",
+            "        </div>",
+            "      </section>",
+            "      <section class=\"sample-list\" aria-label=\"Sample opportunities\">",
+            *rows,
+            "      </section>",
+            "    </main>",
+            "    <footer class=\"footer\">",
+            "      <span>CyberTender Radar</span>",
+            "      <a href=\"mailto:cybertenderbusiness@gmail.com\">Contact</a>",
+            "      <a href=\"privacy.html\">Privacy</a>",
+            "      <a href=\"terms.html\">Terms</a>",
+            "    </footer>",
+            "  </body>",
+            "</html>",
+            "",
+        ]
+    )
+    path.write_text(html_doc, encoding="utf-8")
+
+
+def escape_html(value: Any) -> str:
+    return html.escape(clean_text(value), quote=False)
+
+
+def escape_attr(value: Any) -> str:
+    return html.escape(clean_text(value), quote=True)
+
+
+def escape_xml(value: Any) -> str:
+    return html.escape(clean_text(value), quote=True)
+
+
+def rss_date(value: str) -> str:
+    parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    return parsed.strftime("%a, %d %b %Y %H:%M:%S GMT")
+
+
 def main() -> int:
     feed = build_feed()
     write_json(feed)
     write_csv(feed)
     write_brief(feed)
+    write_rss(feed)
+    write_sample_brief(feed)
     print(
         f"Wrote {feed['summary']['total']} opportunities "
         f"({feed['summary']['highConfidence']} high-confidence)."

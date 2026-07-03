@@ -13,6 +13,7 @@ can run from GitHub Pages.
 - Includes optional SAM.gov support through a `SAM_API_KEY` secret.
 - Runs on free GitHub Actions with no Python package dependencies.
 - Checks the live site and checkout daily with a production health workflow.
+- Publishes an RSS feed and sample brief for outreach and prospect review.
 
 Live site: <https://shmghub.github.io/cybertender-radar/>
 
@@ -63,6 +64,10 @@ material, and subscribers should verify the original notice before bidding.
 - Customer onboarding: `business/customer_welcome_email.md`
 - Outreach sequence: `business/outreach_sequence.md`
 - First outreach batch: `business/first_outreach_batch.md`
+- Next outreach batch: `business/next_outreach_batch.md`
 - Daily sales checklist: `business/daily_sales_checklist.md`
 - Operations runbook: `business/operations_runbook.md`
 - Outreach tracker: `business/outreach_tracker.csv`
+- Lead pipeline: `business/lead_pipeline.csv`
+- Outreach draft queue: `business/outreach_draft_queue.md`
+- Daily sales packet: `business/daily_sales_packet.md`

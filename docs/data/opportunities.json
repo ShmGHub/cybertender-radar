@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T13:11:37.540954Z",
+  "generatedAt": "2026-07-03T13:54:30.500864Z",
   "profile": {
     "name": "CyberTender Radar",
     "niche": "Cybersecurity and IT services opportunities for small suppliers",
@@ -18,7 +18,7 @@
       "UK Contracts Finder"
     ],
     "largestValue": 800000000,
-    "largestValueLabel": "£800.0m",
+    "largestValueLabel": "GBP 800.0m",
     "nextDeadlineDays": 28
   },
   "sources": [
@@ -54,13 +54,13 @@
       "status": "Open",
       "opportunityType": "Contract",
       "category": "IT services: consulting, software development, Internet and support",
-      "description": "Crown Commercial Service (CCS) set up a dynamic purchasing system for a period of 60 months and has invited bidders to request to participate for the Cyber Security Services 3 DPS. This DPS provides central government departments and the wider public sector with the opportunity to procure cyber services from a range of suppliers. The DPS filters are for certification, services, standards and experience. Appointed suppliers will be invited by customers (buyers) to submit tenders for relevant services through a call for competition. This notice is to advise that this DPS has been further extended to 13/02/2029 and based on current spend profiling the estimated total value will remain as £800million.",
+      "description": "Crown Commercial Service (CCS) set up a dynamic purchasing system for a period of 60 months and has invited bidders to request to participate for the Cyber Security Services 3 DPS. This DPS provides central government departments and the wider public sector with the opportunity to procure cyber services from a range of suppliers. The DPS filters are for certification, services, standards and experience. Appointed suppliers will be invited by customers (buyers) to submit tenders for relevant services through a call for competition. This notice is to advise that this DPS has been further extended to 13/02/2029 and based on current spend profiling the estimated total value will remain as GBP 800million.",
       "publishedDate": "2022-12-20",
       "deadlineDate": "2029-02-11",
       "deadlineInDays": 954,
       "value": 800000000,
       "valueCurrency": "GBP",
-      "valueLabel": "£800.0m",
+      "valueLabel": "GBP 800.0m",
       "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West,Scotland,Wales,Northern Ireland",
       "url": "https://www.contractsfinder.service.gov.uk/notice/4c8a6f7a-ea75-4463-b05a-a56c140a7582",
       "apiUrl": "https://www.contractsfinder.service.gov.uk/api/rest/2/get_published_notice/json/4c8a6f7a-ea75-4463-b05a-a56c140a7582",
@@ -91,7 +91,7 @@
         "software"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around £800.0m; deadline in 954 days.",
+      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 954 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Cyber",
@@ -119,7 +119,7 @@
       "deadlineInDays": 1063,
       "value": 75000000,
       "valueCurrency": "GBP",
-      "valueLabel": "£75.0m",
+      "valueLabel": "GBP 75.0m",
       "region": "Any region",
       "url": "https://www.contractsfinder.service.gov.uk/notice/0540e547-aeb2-4e3a-a165-8dd00c8efb30",
       "apiUrl": "https://www.contractsfinder.service.gov.uk/api/rest/2/get_published_notice/json/0540e547-aeb2-4e3a-a165-8dd00c8efb30",
@@ -141,7 +141,7 @@
         "software"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around £75.0m; deadline in 1063 days.",
+      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 1063 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Cyber",
@@ -168,7 +168,7 @@
       "deadlineInDays": 240,
       "value": 60000000,
       "valueCurrency": "GBP",
-      "valueLabel": "£60.0m",
+      "valueLabel": "GBP 60.0m",
       "region": "Any region",
       "url": "https://www.contractsfinder.service.gov.uk/notice/d01b3b0e-1813-44f9-9e33-f72dd1f53c30",
       "apiUrl": "https://www.contractsfinder.service.gov.uk/api/rest/2/get_published_notice/json/d01b3b0e-1813-44f9-9e33-f72dd1f53c30",
@@ -185,7 +185,7 @@
         "digital"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches digital forensics, digital; marked SME-suitable; value around £60.0m; deadline in 240 days.",
+      "whyItMatters": "Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 240 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Framework",
@@ -330,7 +330,7 @@
       "deadlineInDays": 836,
       "value": 60000000,
       "valueCurrency": "GBP",
-      "valueLabel": "£60.0m",
+      "valueLabel": "GBP 60.0m",
       "region": "Any region",
       "url": "https://www.contractsfinder.service.gov.uk/notice/0d055249-a5f5-4a3f-92ca-a6b8125a70fd",
       "apiUrl": "https://www.contractsfinder.service.gov.uk/api/rest/2/get_published_notice/json/0d055249-a5f5-4a3f-92ca-a6b8125a70fd",
@@ -350,7 +350,7 @@
         "software"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches digital forensics, digital, it services; marked SME-suitable; value around £60.0m; deadline in 836 days.",
+      "whyItMatters": "Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 836 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Network",

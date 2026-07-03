@@ -97,6 +97,10 @@ main {
   padding: clamp(44px, 8vw, 86px) 0;
 }
 
+.sample-page {
+  max-width: 920px;
+}
+
 .plain-page h1 {
   margin-bottom: 20px;
   font-size: clamp(2.8rem, 7vw, 5rem);
@@ -272,7 +276,9 @@ select {
 .feed-section,
 .pricing-section,
 .source-section,
-.faq-section {
+.faq-section,
+.sample-hero,
+.sample-list {
   padding: 56px 0;
 }
 
@@ -434,6 +440,28 @@ select {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
+}
+
+.sample-list {
+  display: grid;
+  gap: 14px;
+}
+
+.sample-item {
+  padding: 20px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.sample-item h2 {
+  margin-bottom: 10px;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+}
+
+.sample-item p {
+  color: var(--muted);
+  line-height: 1.6;
 }
 
 .footer {

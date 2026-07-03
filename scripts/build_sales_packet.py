@@ -1,0 +1,213 @@
+#!/usr/bin/env python3
+"""Build the daily CyberTender Radar sales packet from feed and tracker data."""
+
+from __future__ import annotations
+
+import csv
+import json
+from collections import Counter
+from datetime import date, datetime
+from pathlib import Path
+from typing import Any
+
+
+ROOT = Path(__file__).resolve().parents[1]
+FEED_PATH = ROOT / "docs" / "data" / "opportunities.json"
+TRACKER_PATH = ROOT / "business" / "outreach_tracker.csv"
+PACKET_PATH = ROOT / "business" / "daily_sales_packet.md"
+FOLLOWUPS_PATH = ROOT / "business" / "outreach_followups_due.csv"
+
+SITE_URL = "https://shmghub.github.io/cybertender-radar/"
+SAMPLE_BRIEF_URL = "https://shmghub.github.io/cybertender-radar/sample-brief.html"
+CHECKOUT_URL = "https://cybertender.gumroad.com/l/msidq"
+
+
+def load_feed() -> dict[str, Any]:
+    return json.loads(FEED_PATH.read_text(encoding="utf-8"))
+
+
+def load_tracker() -> list[dict[str, str]]:
+    if not TRACKER_PATH.exists():
+        return []
+    with TRACKER_PATH.open(newline="", encoding="utf-8") as handle:
+        return list(csv.DictReader(handle))
+
+
+def parse_date(value: str) -> date | None:
+    if not value:
+        return None
+    try:
+        return date.fromisoformat(value)
+    except ValueError:
+        return None
+
+
+def generated_day(feed: dict[str, Any]) -> date:
+    value = str(feed.get("generatedAt", "")).replace("Z", "+00:00")
+    try:
+        return datetime.fromisoformat(value).date()
+    except ValueError:
+        return date.today()
+
+
+def money(value: Any) -> str:
+    return str(value or "Value not disclosed")
+
+
+def top_opportunities(feed: dict[str, Any]) -> list[dict[str, Any]]:
+    return list(feed.get("opportunities", []))[:5]
+
+
+def status_counts(rows: list[dict[str, str]]) -> Counter[str]:
+    return Counter((row.get("status") or "unknown").strip() or "unknown" for row in rows)
+
+
+def rows_due(rows: list[dict[str, str]], today: date) -> list[dict[str, str]]:
+    due = []
+    for row in rows:
+        status = (row.get("status") or "").lower()
+        follow_up = parse_date(row.get("next_follow_up", ""))
+        if not follow_up or follow_up > today:
+            continue
+        if "draft" in status:
+            continue
+        if status in {"replied", "converted", "unsubscribed", "not_interested"}:
+            continue
+        due.append(row)
+    return due
+
+
+def rows_ready_to_send(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    return [row for row in rows if row.get("status") == "business_gmail_draft_ready"]
+
+
+def prospecting_angles(feed: dict[str, Any]) -> list[str]:
+    angles = []
+    for item in top_opportunities(feed):
+        title = item.get("title") or "Untitled opportunity"
+        buyer = item.get("buyer") or "Unknown buyer"
+        value = money(item.get("valueLabel"))
+        deadline = item.get("deadlineDate") or "not specified"
+        tags = ", ".join(item.get("tags", [])[:4]) or "cyber/IT"
+        angles.append(f"- {title} from {buyer}: {value}, deadline {deadline}. Use for {tags} suppliers.")
+    return angles
+
+
+def write_followups(rows: list[dict[str, str]]) -> None:
+    fields = [
+        "date",
+        "company",
+        "email_or_profile",
+        "opportunity_mentioned",
+        "status",
+        "next_follow_up",
+        "notes",
+    ]
+    with FOLLOWUPS_PATH.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({field: row.get(field, "") for field in fields})
+
+
+def write_packet(feed: dict[str, Any], rows: list[dict[str, str]], due: list[dict[str, str]]) -> None:
+    today = generated_day(feed)
+    counts = status_counts(rows)
+    ready = rows_ready_to_send(rows)
+    if ready:
+        immediate_bottleneck = "review and approve the business Gmail drafts for one-by-one sending."
+        next_moves = [
+            "1. Review the drafts in cybertenderbusiness@gmail.com.",
+            "2. Confirm they should be sent.",
+            "3. Send one by one from cybertenderbusiness@gmail.com.",
+            "4. Change the tracker status from business_gmail_draft_ready to sent.",
+            "5. Watch replies and record them in outreach_tracker.csv.",
+        ]
+    elif counts.get("sent", 0):
+        immediate_bottleneck = "watch replies and prepare the 2026-07-06 follow-up for no-reply prospects."
+        next_moves = [
+            "1. Open Gmail label CyberTender Radar/Outreach.",
+            "2. Record any replies in outreach_tracker.csv.",
+            "3. Mark no replies for follow-up on 2026-07-06.",
+            "4. Prepare the next outreach batch from lead_pipeline.csv.",
+            "5. Draft follow-ups only for recipients who have not replied.",
+        ]
+    else:
+        immediate_bottleneck = "prepare and send the first qualified outreach batch."
+        next_moves = [
+            "1. Build the first outreach draft queue.",
+            "2. Review recipient fit.",
+            "3. Send one by one from cybertenderbusiness@gmail.com.",
+            "4. Record status in outreach_tracker.csv.",
+            "5. Watch replies and follow up only where relevant.",
+        ]
+
+    lines = [
+        "# CyberTender Radar Daily Sales Packet",
+        "",
+        f"Generated: {feed.get('generatedAt')}",
+        "",
+        "## Revenue Target",
+        "",
+        "- Target: GBP 10,000/month.",
+        "- Current paid customers tracked here: 0.",
+        "- Practical path: 102 customers at GBP 99/month, or 51 customers at GBP 199/month.",
+        f"- Immediate bottleneck: {immediate_bottleneck}",
+        "",
+        "## Feed Snapshot",
+        "",
+        f"- Tracked opportunities: {feed.get('summary', {}).get('total', 0)}.",
+        f"- High-confidence opportunities: {feed.get('summary', {}).get('highConfidence', 0)}.",
+        f"- Largest tracked value: {feed.get('summary', {}).get('largestValueLabel', 'Value not disclosed')}.",
+        f"- Live feed: {SITE_URL}",
+        f"- Sample brief: {SAMPLE_BRIEF_URL}",
+        f"- Checkout: {CHECKOUT_URL}",
+        "",
+        "## Best Hooks Today",
+        "",
+        *prospecting_angles(feed),
+        "",
+        "## Outreach State",
+        "",
+    ]
+
+    if counts:
+        for status, count in sorted(counts.items()):
+            lines.append(f"- {status}: {count}")
+    else:
+        lines.append("- No outreach rows yet.")
+
+    lines.extend(["", "## Ready In Business Gmail", ""])
+    if ready:
+        for row in ready:
+            lines.append(
+                f"- {row.get('company')}: business Gmail draft ready for {row.get('email_or_profile')} using {row.get('opportunity_mentioned')}."
+            )
+    else:
+        lines.append("- No business Gmail drafts are marked ready.")
+
+    lines.extend(["", "## Follow-Ups Due", ""])
+    if due:
+        for row in due:
+            lines.append(
+                f"- {row.get('company')}: follow up on {row.get('opportunity_mentioned')}."
+            )
+    else:
+        lines.append(f"- No follow-ups due on {today.isoformat()}.")
+
+    lines.extend(["", "## Next Manual Move", "", *next_moves, ""])
+    PACKET_PATH.write_text("\n".join(lines), encoding="utf-8")
+
+
+def main() -> int:
+    feed = load_feed()
+    rows = load_tracker()
+    due = rows_due(rows, generated_day(feed))
+    write_followups(due)
+    write_packet(feed, rows, due)
+    print(f"Wrote {PACKET_PATH.relative_to(ROOT)} and {FOLLOWUPS_PATH.relative_to(ROOT)}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

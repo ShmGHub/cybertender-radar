@@ -109,7 +109,7 @@ function renderSources(feed) {
     item.className = "source-item";
     item.innerHTML = `
       <strong>${escapeHtml(source.name)}</strong>
-      <span>${escapeHtml(source.status)} · ${escapeHtml(source.fetched)} fetched</span>
+      <span>${escapeHtml(source.status)} &middot; ${escapeHtml(source.fetched)} fetched</span>
     `;
     els.sourceList.append(item);
   }
@@ -144,7 +144,7 @@ function renderOpportunities() {
           <span>${escapeHtml(deadlineText(item))}</span>
         </div>
         <h3>${escapeHtml(item.title)}</h3>
-        <p>${escapeHtml(item.buyer || "Unknown buyer")} · ${escapeHtml(item.region || "Region not specified")}</p>
+        <p>${escapeHtml(item.buyer || "Unknown buyer")} &middot; ${escapeHtml(item.region || "Region not specified")}</p>
         <p>${escapeHtml(item.whyItMatters)}</p>
         <div class="tags">${tags}</div>
         <div class="card-actions">

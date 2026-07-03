@@ -1,6 +1,6 @@
 # CyberTender Radar Daily Brief
 
-Generated: 2026-07-03T13:11:37.540954Z
+Generated: 2026-07-03T13:54:30.500864Z
 
 Tracked opportunities: 7
 High-confidence matches: 3
@@ -11,27 +11,27 @@ High-confidence matches: 3
 
 - Score: 88 (High)
 - Buyer: Crown Commercial Service
-- Value: £800.0m
+- Value: GBP 800.0m
 - Deadline: 2029-02-11
-- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around £800.0m; deadline in 954 days.
+- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 954 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/4c8a6f7a-ea75-4463-b05a-a56c140a7582
 
 ### 2. IT and Cyber Security Services
 
 - Score: 88 (High)
 - Buyer: Procurement Assist Limited c/o Integrated Facilities Management Bolton Ltd (iFM Bolton)
-- Value: £75.0m
+- Value: GBP 75.0m
 - Deadline: 2029-05-31
-- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around £75.0m; deadline in 1063 days.
+- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 1063 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/0540e547-aeb2-4e3a-a165-8dd00c8efb30
 
 ### 3. BLC0109 - Digital Forensic Services DPS
 
 - Score: 81 (High)
 - Buyer: BlueLight Commercial
-- Value: £60.0m
+- Value: GBP 60.0m
 - Deadline: 2027-02-28
-- Why: Matches digital forensics, digital; marked SME-suitable; value around £60.0m; deadline in 240 days.
+- Why: Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 240 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/d01b3b0e-1813-44f9-9e33-f72dd1f53c30
 
 ### 4. National Cybersecurity Preparedness Consortium
@@ -65,7 +65,7 @@ High-confidence matches: 3
 
 - Score: 48 (Medium)
 - Buyer: South West Police Procurement Department (SWPPD)
-- Value: £60.0m
+- Value: GBP 60.0m
 - Deadline: 2028-10-16
-- Why: Matches digital forensics, digital, it services; marked SME-suitable; value around £60.0m; deadline in 836 days.
+- Why: Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 836 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/0d055249-a5f5-4a3f-92ca-a6b8125a70fd

@@ -11,6 +11,7 @@ Your current links:
 - Live feed: https://shmghub.github.io/cybertender-radar/
 - Latest brief: https://shmghub.github.io/cybertender-radar/data/latest_brief.md
 - CSV export: https://shmghub.github.io/cybertender-radar/data/opportunities.csv
+- RSS feed: https://shmghub.github.io/cybertender-radar/feed.xml
 
 Best way to use it:
 
@@ -21,6 +22,11 @@ Best way to use it:
 
 CyberTender Radar is a discovery layer, not the official procurement record.
 If anything conflicts with the source notice, trust the official notice.
+
+Reply with your main services, target region, and any buyer names you want to
+watch. I will use that to tune the feed profile.
+
+Support email: cybertenderbusiness@gmail.com
 
 Regards,
 

@@ -22,7 +22,10 @@ jobs:
           python-version: "3.12"
 
       - name: Refresh public feed
-        run: python scripts/fetch_opportunities.py
+        run: |
+          python scripts/fetch_opportunities.py
+          python scripts/build_outreach_draft_queue.py
+          python scripts/build_sales_packet.py
         env:
           SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
 
@@ -30,7 +33,7 @@ jobs:
         run: |
           git config user.name "cybertender-radar-bot"
           git config user.email "cybertender-radar-bot@users.noreply.github.com"
-          git add docs/data data
+          git add docs data
           if git diff --cached --quiet; then
             echo "No feed changes to commit."
           else

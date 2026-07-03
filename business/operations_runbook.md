@@ -30,6 +30,18 @@ Workflow:
 4. Check that at least one opportunity is present.
 5. Send 10-30 targeted outreach messages using `business/outreach_sequence.md`.
 
+## Gmail Tracking
+
+Use `cybertenderbusiness@gmail.com` for all outbound email. The first outreach
+batch is labeled in Gmail as `CyberTender Radar/Outreach`.
+
+Daily:
+
+1. Open the Gmail label `CyberTender Radar/Outreach`.
+2. Record replies in `business/outreach_tracker.csv`.
+3. If a recipient replies no, mark them `not_interested` and do not follow up.
+4. If a recipient asks for details, use `business/customer_support_templates.md`.
+
 ## Customer Delivery
 
 When someone subscribes through Gumroad:
