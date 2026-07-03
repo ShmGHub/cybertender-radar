@@ -1,0 +1,17 @@
+{
+  "name": "CyberTender Radar",
+  "short_name": "CyberTender",
+  "description": "Premium cyber procurement intelligence for public-sector tender opportunities.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#061225",
+  "theme_color": "#061225",
+  "icons": [
+    {
+      "src": "assets/logo-radar-shield.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">CyberTender Radar social preview</title>
+  <desc id="desc">Social preview card for CyberTender Radar.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07182c"/>
+      <stop offset="0.55" stop-color="#061225"/>
+      <stop offset="1" stop-color="#102943"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="805" y1="320" x2="1110" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#effcff"/>
+      <stop offset="0.35" stop-color="#24d9ff" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#24d9ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity=".18">
+    <path d="M0 100h1200M0 200h1200M0 300h1200M0 400h1200M0 500h1200M100 0v630M240 0v630M380 0v630M520 0v630M660 0v630M800 0v630M940 0v630M1080 0v630" stroke="#24d9ff" stroke-width="1"/>
+  </g>
+  <g transform="translate(76 74)">
+    <path d="M96 0 164 27v50c0 46-27 81-68 100-41-19-68-54-68-100V27L96 0Z" fill="#061225" stroke="#24d9ff" stroke-width="7"/>
+    <circle cx="96" cy="92" r="15" fill="none" stroke="#effcff" stroke-width="7"/>
+    <circle cx="96" cy="92" r="38" fill="none" stroke="#24d9ff" stroke-width="5" opacity=".68"/>
+    <circle cx="96" cy="92" r="61" fill="none" stroke="#24d9ff" stroke-width="4" opacity=".34"/>
+    <path d="M96 92 146 47a65 65 0 0 1 15 45H96Z" fill="#24d9ff" opacity=".42"/>
+  </g>
+  <g transform="translate(90 270)">
+    <text x="0" y="0" fill="#effcff" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="900">CyberTender Radar</text>
+    <text x="0" y="78" fill="#9db8ca" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="600">Premium cyber procurement intelligence</text>
+    <text x="0" y="132" fill="#75ecff" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">Radar. Score. Act.</text>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="805" cy="320" r="142" fill="none" stroke="#24d9ff" stroke-width="5" opacity=".34"/>
+    <circle cx="805" cy="320" r="96" fill="none" stroke="#24d9ff" stroke-width="5" opacity=".5"/>
+    <circle cx="805" cy="320" r="44" fill="none" stroke="#24d9ff" stroke-width="6" opacity=".72"/>
+    <circle cx="805" cy="320" r="16" fill="#effcff"/>
+    <path d="M805 320 1110 190a340 340 0 0 1 36 130H805Z" fill="url(#beam)"/>
+  </g>
+</svg>
