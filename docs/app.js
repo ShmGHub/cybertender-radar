@@ -45,6 +45,24 @@ function deadlineText(item) {
   return `${item.deadlineInDays} days`;
 }
 
+function animateNumber(element, endValue, suffix = "") {
+  const finalValue = Number(endValue) || 0;
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduceMotion) {
+    element.textContent = `${finalValue}${suffix}`;
+    return;
+  }
+  const duration = 800;
+  const startTime = performance.now();
+  function frame(now) {
+    const progress = Math.min((now - startTime) / duration, 1);
+    const eased = 1 - (1 - progress) ** 3;
+    element.textContent = `${Math.round(finalValue * eased)}${suffix}`;
+    if (progress < 1) requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+}
+
 function matchesFilters(item) {
   const query = els.searchInput.value.trim().toLowerCase();
   const confidence = els.confidenceFilter.value;
@@ -80,12 +98,13 @@ function sortItems(items) {
 }
 
 function renderSummary(feed) {
-  els.totalCount.textContent = feed.summary.total;
-  els.highCount.textContent = feed.summary.highConfidence;
-  els.nextDeadline.textContent =
-    typeof feed.summary.nextDeadlineDays === "number"
-      ? `${feed.summary.nextDeadlineDays}d`
-      : "--";
+  animateNumber(els.totalCount, feed.summary.total);
+  animateNumber(els.highCount, feed.summary.highConfidence);
+  if (typeof feed.summary.nextDeadlineDays === "number") {
+    animateNumber(els.nextDeadline, feed.summary.nextDeadlineDays, "d");
+  } else {
+    els.nextDeadline.textContent = "--";
+  }
   els.generatedAt.textContent = `Updated ${new Date(feed.generatedAt).toLocaleString(
     "en-GB",
     { dateStyle: "medium", timeStyle: "short" },
@@ -122,9 +141,10 @@ function renderOpportunities() {
     ? `${visible.length} opportunities shown`
     : "No opportunities match the current filters.";
 
-  for (const item of visible) {
+  for (const [index, item] of visible.entries()) {
     const card = document.createElement("article");
     card.className = "opportunity-card";
+    card.style.animationDelay = `${Math.min(index, 6) * 55}ms`;
     const tags = (item.tags || [])
       .map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`)
       .join("");

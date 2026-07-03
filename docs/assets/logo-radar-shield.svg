@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">CyberTender Radar shield logo</title>
+  <desc id="desc">A shield with radar rings and a scanning sweep.</desc>
+  <defs>
+    <linearGradient id="shield" x1="42" y1="28" x2="214" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#153a66"/>
+      <stop offset="0.55" stop-color="#07182c"/>
+      <stop offset="1" stop-color="#03111f"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="74" y1="62" x2="190" y2="178" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#24d9ff"/>
+      <stop offset="1" stop-color="#24d9ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M128 18 211 51v63c0 58-33 101-83 124-50-23-83-66-83-124V51l83-33Z" fill="url(#shield)" stroke="#24d9ff" stroke-width="8"/>
+  <path d="M128 50v160" stroke="#1f5c85" stroke-width="3" opacity=".75"/>
+  <circle cx="128" cy="130" r="18" fill="none" stroke="#e8fbff" stroke-width="7"/>
+  <circle cx="128" cy="130" r="43" fill="none" stroke="#24d9ff" stroke-width="5" opacity=".72"/>
+  <circle cx="128" cy="130" r="69" fill="none" stroke="#24d9ff" stroke-width="4" opacity=".32"/>
+  <path d="M128 130 184 79a76 76 0 0 1 18 51h-74Z" fill="url(#sweep)" filter="url(#glow)" opacity=".95"/>
+  <path d="M76 184h104" stroke="#e8fbff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M93 203h70" stroke="#24d9ff" stroke-width="6" stroke-linecap="round"/>
+</svg>

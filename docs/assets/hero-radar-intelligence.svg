@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">CyberTender Radar intelligence display</title>
+  <desc id="desc">An animated radar screen and procurement intelligence interface.</desc>
+  <defs>
+    <linearGradient id="screen" x1="80" y1="40" x2="820" y2="580" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#102e52"/>
+      <stop offset="0.58" stop-color="#07182c"/>
+      <stop offset="1" stop-color="#030b15"/>
+    </linearGradient>
+    <linearGradient id="cyanLine" x1="120" y1="0" x2="740" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#24d9ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#24d9ff"/>
+      <stop offset="1" stop-color="#24d9ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="454" y1="313" x2="690" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#effcff"/>
+      <stop offset="0.35" stop-color="#24d9ff" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#24d9ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes sweep {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: .35; }
+        50% { opacity: 1; }
+      }
+      @keyframes drift {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      #radarSweep { animation: sweep 8s linear infinite; transform-origin: 454px 313px; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; }
+      .drift { animation: drift 6s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        #radarSweep, .pulse, .drift { animation: none; }
+      }
+    </style>
+  </defs>
+  <rect width="900" height="620" rx="38" fill="#061225"/>
+  <path d="M46 84h808v452H46z" fill="url(#screen)" stroke="#245376" stroke-width="2"/>
+  <path d="M46 84h808" stroke="url(#cyanLine)" stroke-width="3"/>
+  <path d="M96 135h224M96 166h172M96 197h204" stroke="#7eeaff" stroke-width="5" stroke-linecap="round" opacity=".72"/>
+  <path d="M614 128h155M614 160h109M614 192h143" stroke="#9fb9cc" stroke-width="5" stroke-linecap="round" opacity=".46"/>
+  <g transform="translate(72 268)" class="drift">
+    <rect width="244" height="150" rx="18" fill="#092137" stroke="#245376"/>
+    <path d="M24 40h142M24 76h188M24 112h126" stroke="#e8fbff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="200" cy="40" r="14" fill="#24d9ff" class="pulse"/>
+  </g>
+  <g transform="translate(590 322)" class="drift">
+    <rect width="224" height="124" rx="18" fill="#092137" stroke="#245376"/>
+    <path d="M28 40h108M28 72h166" stroke="#e8fbff" stroke-width="7" stroke-linecap="round"/>
+    <path d="M28 96h66" stroke="#24d9ff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="454" cy="313" r="148" fill="none" stroke="#24d9ff" stroke-width="4" opacity=".28"/>
+    <circle cx="454" cy="313" r="104" fill="none" stroke="#24d9ff" stroke-width="4" opacity=".42"/>
+    <circle cx="454" cy="313" r="56" fill="none" stroke="#24d9ff" stroke-width="5" opacity=".66"/>
+    <circle cx="454" cy="313" r="14" fill="#effcff"/>
+    <g id="radarSweep">
+      <path d="M454 313 696 112a314 314 0 0 1 58 201H454Z" fill="url(#beam)"/>
+    </g>
+  </g>
+  <path d="M132 500h636" stroke="#245376" stroke-width="2"/>
+  <path d="M168 500h132M360 500h92M510 500h222" stroke="#24d9ff" stroke-width="6" stroke-linecap="round" opacity=".78"/>
+  <circle cx="344" cy="500" r="8" fill="#effcff"/>
+  <circle cx="490" cy="500" r="8" fill="#effcff"/>
+</svg>
