@@ -14,7 +14,7 @@ can run from GitHub Pages.
 - Runs on free GitHub Actions with no Python package dependencies.
 - Checks the live site and checkout daily with a production health workflow.
 
-Live site: the GitHub Pages URL shown in repository settings.
+Live site: <https://shmghub.github.io/cybertender-radar/>
 
 Subscribe: <https://cybertender.gumroad.com/l/msidq>
 

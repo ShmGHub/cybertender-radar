@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://shmghub.github.io/cybertender-radar/sitemap.xml

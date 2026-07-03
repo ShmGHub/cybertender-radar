@@ -13,7 +13,7 @@ Today it found {{opportunity_title}} from {{buyer}}, with a deadline on
 {{deadline}}.
 
 The live preview is here:
-[paste the current public site URL]
+https://shmghub.github.io/cybertender-radar/
 
 Worth trying the Scout feed for your bid pipeline?
 
@@ -42,7 +42,7 @@ I will close the loop after this.
 
 If public-sector cyber tenders are on your radar this quarter, CyberTender Radar
 keeps a daily ranked feed here:
-[paste the current public site URL]
+https://shmghub.github.io/cybertender-radar/
 
 Thanks,
 

@@ -8,9 +8,9 @@ Thanks for subscribing to CyberTender Radar.
 
 Your current links:
 
-- Live feed: [paste the current public site URL]
-- Latest brief: [paste the current public site URL]/data/latest_brief.md
-- CSV export: [paste the current public site URL]/data/opportunities.csv
+- Live feed: https://shmghub.github.io/cybertender-radar/
+- Latest brief: https://shmghub.github.io/cybertender-radar/data/latest_brief.md
+- CSV export: https://shmghub.github.io/cybertender-radar/data/opportunities.csv
 
 Best way to use it:
 

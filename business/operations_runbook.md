@@ -17,10 +17,10 @@ Workflow:
 
 ## Live URLs
 
-- Site: the GitHub Pages URL shown in repository settings
+- Site: https://shmghub.github.io/cybertender-radar/
 - Gumroad: https://cybertender.gumroad.com/l/msidq
-- Brief: `[site URL]/data/latest_brief.md`
-- CSV: `[site URL]/data/opportunities.csv`
+- Brief: https://shmghub.github.io/cybertender-radar/data/latest_brief.md
+- CSV: https://shmghub.github.io/cybertender-radar/data/opportunities.csv
 
 ## Morning Check
 
@@ -45,7 +45,7 @@ Recommended product settings:
 - Product name: CyberTender Radar Scout
 - Price: GBP 49/month
 - Button/checkout link: https://cybertender.gumroad.com/l/msidq
-- Post-purchase redirect: `[site URL]/thanks.html`
+- Post-purchase redirect: https://shmghub.github.io/cybertender-radar/thanks.html
 - Product content: paste the live site, brief, and CSV links.
 
 ## Weekly Review
