@@ -14,6 +14,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 FEED_PATH = ROOT / "docs" / "data" / "opportunities.json"
 TRACKER_PATH = ROOT / "business" / "outreach_tracker.csv"
+LEAD_PIPELINE_PATH = ROOT / "business" / "lead_pipeline.csv"
 PACKET_PATH = ROOT / "business" / "daily_sales_packet.md"
 FOLLOWUPS_PATH = ROOT / "business" / "outreach_followups_due.csv"
 
@@ -30,6 +31,13 @@ def load_tracker() -> list[dict[str, str]]:
     if not TRACKER_PATH.exists():
         return []
     with TRACKER_PATH.open(newline="", encoding="utf-8") as handle:
+        return list(csv.DictReader(handle))
+
+
+def load_lead_pipeline() -> list[dict[str, str]]:
+    if not LEAD_PIPELINE_PATH.exists():
+        return []
+    with LEAD_PIPELINE_PATH.open(newline="", encoding="utf-8") as handle:
         return list(csv.DictReader(handle))
 
 
@@ -81,6 +89,10 @@ def rows_ready_to_send(rows: list[dict[str, str]]) -> list[dict[str, str]]:
     return [row for row in rows if row.get("status") == "business_gmail_draft_ready"]
 
 
+def lead_pipeline_ready(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    return [row for row in rows if row.get("status") == "business_gmail_draft_ready"]
+
+
 def prospecting_angles(feed: dict[str, Any]) -> list[str]:
     angles = []
     for item in top_opportunities(feed):
@@ -110,10 +122,17 @@ def write_followups(rows: list[dict[str, str]]) -> None:
             writer.writerow({field: row.get(field, "") for field in fields})
 
 
-def write_packet(feed: dict[str, Any], rows: list[dict[str, str]], due: list[dict[str, str]]) -> None:
+def write_packet(
+    feed: dict[str, Any],
+    rows: list[dict[str, str]],
+    lead_rows: list[dict[str, str]],
+    due: list[dict[str, str]],
+) -> None:
     today = generated_day(feed)
     counts = status_counts(rows)
     ready = rows_ready_to_send(rows)
+    lead_counts = status_counts(lead_rows)
+    lead_ready = lead_pipeline_ready(lead_rows)
     if ready:
         immediate_bottleneck = "review and approve the business Gmail drafts for one-by-one sending."
         next_moves = [
@@ -124,12 +143,12 @@ def write_packet(feed: dict[str, Any], rows: list[dict[str, str]], due: list[dic
             "5. Watch replies and record them in outreach_tracker.csv.",
         ]
     elif counts.get("sent", 0):
-        immediate_bottleneck = "watch replies and prepare the 2026-07-06 follow-up for no-reply prospects."
+        immediate_bottleneck = "watch replies, review the second-batch drafts, and prepare the 2026-07-06 no-reply follow-up."
         next_moves = [
             "1. Open Gmail label CyberTender Radar/Outreach.",
             "2. Record any replies in outreach_tracker.csv.",
-            "3. Mark no replies for follow-up on 2026-07-06.",
-            "4. Prepare the next outreach batch from lead_pipeline.csv.",
+            "3. Review second-batch drafts in cybertenderbusiness@gmail.com.",
+            "4. Mark no replies for follow-up on 2026-07-06.",
             "5. Draft follow-ups only for recipients who have not replied.",
         ]
     else:
@@ -162,6 +181,7 @@ def write_packet(feed: dict[str, Any], rows: list[dict[str, str]], due: list[dic
         f"- Live feed: {SITE_URL}",
         f"- Sample brief: {SAMPLE_BRIEF_URL}",
         f"- Checkout: {CHECKOUT_URL}",
+        "- Payment admin: confirm Gumroad payouts are active before scaling.",
         "",
         "## Best Hooks Today",
         "",
@@ -186,6 +206,20 @@ def write_packet(feed: dict[str, Any], rows: list[dict[str, str]], due: list[dic
     else:
         lines.append("- No business Gmail drafts are marked ready.")
 
+    lines.extend(["", "## Lead Pipeline", ""])
+    if lead_counts:
+        for status, count in sorted(lead_counts.items()):
+            lines.append(f"- {status}: {count}")
+    else:
+        lines.append("- No lead-pipeline rows yet.")
+
+    if lead_ready:
+        lines.extend(["", "## Second Batch Drafts", ""])
+        for row in lead_ready:
+            lines.append(
+                f"- {row.get('company')}: draft ready for {row.get('email_or_profile')} using {row.get('opportunity_hook')}."
+            )
+
     lines.extend(["", "## Follow-Ups Due", ""])
     if due:
         for row in due:
@@ -202,9 +236,10 @@ def write_packet(feed: dict[str, Any], rows: list[dict[str, str]], due: list[dic
 def main() -> int:
     feed = load_feed()
     rows = load_tracker()
+    lead_rows = load_lead_pipeline()
     due = rows_due(rows, generated_day(feed))
     write_followups(due)
-    write_packet(feed, rows, due)
+    write_packet(feed, rows, lead_rows, due)
     print(f"Wrote {PACKET_PATH.relative_to(ROOT)} and {FOLLOWUPS_PATH.relative_to(ROOT)}")
     return 0
 

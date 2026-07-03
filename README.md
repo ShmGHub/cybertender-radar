@@ -65,9 +65,12 @@ material, and subscribers should verify the original notice before bidding.
 - Outreach sequence: `business/outreach_sequence.md`
 - First outreach batch: `business/first_outreach_batch.md`
 - Next outreach batch: `business/next_outreach_batch.md`
+- Second batch Gmail drafts: `business/second_batch_gmail_drafts.md`
 - Daily sales checklist: `business/daily_sales_checklist.md`
+- Payment admin checklist: `business/payment_admin_checklist.md`
 - Operations runbook: `business/operations_runbook.md`
 - Outreach tracker: `business/outreach_tracker.csv`
 - Lead pipeline: `business/lead_pipeline.csv`
 - Outreach draft queue: `business/outreach_draft_queue.md`
+- Follow-up draft queue: `business/followup_draft_queue.md`
 - Daily sales packet: `business/daily_sales_packet.md`

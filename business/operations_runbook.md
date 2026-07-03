@@ -10,9 +10,15 @@ Workflow:
 - `.github/workflows/daily-radar.yml`
 - `.github/workflows/site-health.yml`
 - Runs `python scripts/fetch_opportunities.py`
+- Runs `python scripts/build_outreach_draft_queue.py`
+- Runs `python scripts/build_followup_draft_queue.py`
+- Runs `python scripts/build_sales_packet.py`
 - Writes `docs/data/opportunities.json`
 - Writes `docs/data/opportunities.csv`
 - Writes `docs/data/latest_brief.md`
+- Writes `docs/feed.xml`
+- Writes `docs/sample-brief.html`
+- Writes daily business sales queues
 - Commits changed feed files back to `main`
 
 ## Live URLs
@@ -29,6 +35,7 @@ Workflow:
 3. Confirm the site health workflow passed.
 4. Check that at least one opportunity is present.
 5. Send 10-30 targeted outreach messages using `business/outreach_sequence.md`.
+6. Review `business/followup_draft_queue.md` for due no-reply follow-ups.
 
 ## Gmail Tracking
 
@@ -59,6 +66,9 @@ Recommended product settings:
 - Button/checkout link: https://cybertender.gumroad.com/l/msidq
 - Post-purchase redirect: https://shmghub.github.io/cybertender-radar/thanks.html
 - Product content: paste the live site, brief, and CSV links.
+
+Before scaling, run `business/payment_admin_checklist.md` and confirm Gumroad
+payouts are active.
 
 ## Weekly Review
 
