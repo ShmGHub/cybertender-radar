@@ -1,0 +1,12 @@
+# Local media experiments that are not part of CyberTender Radar.
+*.mp4
+*.jpg
+*.ass
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
+
+# Python cache files.
+__pycache__/
+*.pyc

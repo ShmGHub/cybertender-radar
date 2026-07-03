@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CyberTender Radar</title>
+    <meta
+      name="description"
+      content="Daily ranked cybersecurity and IT services tenders for small suppliers."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="CyberTender Radar home">
+        <span class="brand-mark">CTR</span>
+        <span>CyberTender Radar</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#feed">Feed</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#source">Sources</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Cybersecurity and IT services procurement</p>
+          <h1>Ranked tender alerts for small cyber suppliers.</h1>
+          <p class="lede">
+            A daily public-sector opportunity feed that filters official tenders,
+            grants, and frameworks for cybersecurity, IT support, cloud security,
+            compliance, and incident response work.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#feed">View live feed</a>
+            <a class="button secondary" href="data/opportunities.csv">Download CSV</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Current feed summary">
+          <div class="metric">
+            <span id="totalCount">--</span>
+            <small>tracked matches</small>
+          </div>
+          <div class="metric-row">
+            <div>
+              <strong id="highCount">--</strong>
+              <span>high confidence</span>
+            </div>
+            <div>
+              <strong id="nextDeadline">--</strong>
+              <span>next deadline</span>
+            </div>
+          </div>
+          <p id="generatedAt">Loading latest feed...</p>
+        </aside>
+      </section>
+
+      <section class="toolbar" aria-label="Opportunity controls">
+        <label class="search-field">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="buyer, keyword, region">
+        </label>
+        <label>
+          <span>Confidence</span>
+          <select id="confidenceFilter">
+            <option value="all">All</option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+          </select>
+        </label>
+        <label>
+          <span>Market</span>
+          <select id="marketFilter">
+            <option value="all">All</option>
+          </select>
+        </label>
+        <label>
+          <span>Sort</span>
+          <select id="sortSelect">
+            <option value="score">Score</option>
+            <option value="deadline">Deadline</option>
+            <option value="value">Value</option>
+          </select>
+        </label>
+      </section>
+
+      <section id="feed" class="feed-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Live preview</p>
+            <h2>Opportunity Feed</h2>
+          </div>
+          <a class="text-link" href="data/latest_brief.md">Open daily brief</a>
+        </div>
+        <div id="feedStatus" class="status">Loading opportunities...</div>
+        <div id="opportunityList" class="opportunity-list" aria-live="polite"></div>
+      </section>
+
+      <section id="pricing" class="pricing-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Business model</p>
+            <h2>Simple Subscription Ladder</h2>
+          </div>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>Scout</h3>
+            <p class="price">&pound;49/mo</p>
+            <p>Daily ranked feed, CSV export, and weekly brief for one niche.</p>
+          </article>
+          <article class="price-card featured">
+            <h3>Bid Team</h3>
+            <p class="price">&pound;99/mo</p>
+            <p>Everything in Scout plus shortlist notes and deadline watchlist.</p>
+          </article>
+          <article class="price-card">
+            <h3>Pipeline</h3>
+            <p class="price">&pound;199/mo</p>
+            <p>Custom keyword profile, buyer watchlist, and monthly market export.</p>
+          </article>
+        </div>
+        <a
+          class="button primary"
+          href="https://cybertender.gumroad.com/l/msidq"
+          target="_blank"
+          rel="noreferrer"
+        >Subscribe</a>
+      </section>
+
+      <section id="faq" class="faq-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Buyer questions</p>
+            <h2>What Subscribers Get</h2>
+          </div>
+        </div>
+        <div class="faq-grid">
+          <article>
+            <h3>Daily shortlist</h3>
+            <p>
+              The feed refreshes every weekday and ranks cyber, IT services,
+              compliance, cloud security, and digital forensics opportunities.
+            </p>
+          </article>
+          <article>
+            <h3>Official source links</h3>
+            <p>
+              Every opportunity links back to the official tender or grant page
+              so bid teams can verify requirements before spending time on it.
+            </p>
+          </article>
+          <article>
+            <h3>CSV and brief</h3>
+            <p>
+              Subscribers can use the CSV export for pipeline tracking and the
+              daily brief for quick morning review.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="source" class="source-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Guardrails</p>
+            <h2>Official Sources Only</h2>
+          </div>
+        </div>
+        <p>
+          The feed links back to official opportunity pages and should be treated
+          as a discovery layer, not a substitute for reviewing tender documents.
+          The collector currently uses UK Contracts Finder and Grants.gov. SAM.gov
+          support is included as an optional API-key integration.
+        </p>
+        <div id="sourceList" class="source-list"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>CyberTender Radar</span>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="thanks.html">Subscriber welcome</a>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

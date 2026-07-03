@@ -1,0 +1,23 @@
+name: Check CyberTender Radar Site
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 7 * * 1-5"
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify production site
+        run: python scripts/check_site_health.py
+        env:
+          CYBERTENDER_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
