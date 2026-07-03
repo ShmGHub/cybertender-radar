@@ -29,7 +29,7 @@ Generated: 2026-07-03T13:54:30.500864Z
 
 ## Outreach State
 
-- sent: 10
+- sent: 18
 
 ## Ready In Business Gmail
 
@@ -37,19 +37,8 @@ Generated: 2026-07-03T13:54:30.500864Z
 
 ## Lead Pipeline
 
-- business_gmail_draft_ready: 8
 - contact_form_ready: 4
-
-## Second Batch Drafts
-
-- i3Secure: draft ready for info@i3secure.co.uk using Cyber Security Services 3.
-- Arcanum Cyber: draft ready for contact@arcanum-cyber.com using Cyber Security Services 3.
-- Disking IT: draft ready for hello@diskingit.co.uk using IT and Cyber Security Services.
-- IntaForensics: draft ready for sales@intaforensics.com using BLC0109 - Digital Forensic Services DPS.
-- Digital Forensics Investigations: draft ready for info@computerforensicslab.co.uk using BLC0109 - Digital Forensic Services DPS.
-- EJN Labs: draft ready for Contact@ejnlabs.com using Cyber Security Services 3.
-- Cyberis: draft ready for sales@cyberis.com using Cyber Security Services 3.
-- LeftBrain: draft ready for hi@leftbrain.io using Cyber Security Services 3.
+- sent: 8
 
 ## Follow-Ups Due
 

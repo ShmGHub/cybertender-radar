@@ -1,6 +1,6 @@
 # CyberTender Radar KPI Snapshot
 
-Generated: 2026-07-03T14:19:58.119991Z
+Generated: 2026-07-03T14:32:54.597167Z
 
 ## Revenue
 
@@ -16,12 +16,12 @@ Generated: 2026-07-03T14:19:58.119991Z
 
 ## Outreach
 
-- sent: 10
+- sent: 18
 
 ## Lead Pipeline
 
-- business_gmail_draft_ready: 8
 - contact_form_ready: 4
+- sent: 8
 
 ## Draft Queues
 
