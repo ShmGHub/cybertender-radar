@@ -7,7 +7,7 @@ Generated: 2026-07-03T13:54:30.500864Z
 - Target: GBP 10,000/month.
 - Current paid customers tracked here: 0.
 - Practical path: 102 customers at GBP 99/month, or 51 customers at GBP 199/month.
-- Immediate bottleneck: watch replies, review the second-batch drafts, and prepare the 2026-07-06 no-reply follow-up.
+- Immediate bottleneck: watch replies and prepare the 2026-07-06 no-reply follow-up.
 
 ## Feed Snapshot
 
@@ -48,6 +48,6 @@ Generated: 2026-07-03T13:54:30.500864Z
 
 1. Open Gmail label CyberTender Radar/Outreach.
 2. Record any replies in outreach_tracker.csv.
-3. Review second-batch drafts in cybertenderbusiness@gmail.com.
-4. Mark no replies for follow-up on 2026-07-06.
-5. Draft follow-ups only for recipients who have not replied.
+3. Mark no replies for follow-up on 2026-07-06.
+4. Draft follow-ups only for recipients who have not replied.
+5. Keep contact-form leads parked until email-batch signals are clear.

@@ -93,6 +93,19 @@ def lead_pipeline_ready(rows: list[dict[str, str]]) -> list[dict[str, str]]:
     return [row for row in rows if row.get("status") == "business_gmail_draft_ready"]
 
 
+def next_followup_date(rows: list[dict[str, str]], today: date) -> str:
+    dates = []
+    for row in rows:
+        if row.get("status") != "sent":
+            continue
+        follow_up = parse_date(row.get("next_follow_up", ""))
+        if follow_up and follow_up >= today:
+            dates.append(follow_up)
+    if not dates:
+        return "next scheduled"
+    return min(dates).isoformat()
+
+
 def prospecting_angles(feed: dict[str, Any]) -> list[str]:
     angles = []
     for item in top_opportunities(feed):
@@ -133,6 +146,7 @@ def write_packet(
     ready = rows_ready_to_send(rows)
     lead_counts = status_counts(lead_rows)
     lead_ready = lead_pipeline_ready(lead_rows)
+    next_followup = next_followup_date(rows, today)
     if ready:
         immediate_bottleneck = "review and approve the business Gmail drafts for one-by-one sending."
         next_moves = [
@@ -142,14 +156,23 @@ def write_packet(
             "4. Change the tracker status from business_gmail_draft_ready to sent.",
             "5. Watch replies and record them in outreach_tracker.csv.",
         ]
-    elif counts.get("sent", 0):
-        immediate_bottleneck = "watch replies, review the second-batch drafts, and prepare the 2026-07-06 no-reply follow-up."
+    elif due:
+        immediate_bottleneck = "check replies and prepare due no-reply follow-ups."
         next_moves = [
             "1. Open Gmail label CyberTender Radar/Outreach.",
             "2. Record any replies in outreach_tracker.csv.",
-            "3. Review second-batch drafts in cybertenderbusiness@gmail.com.",
-            "4. Mark no replies for follow-up on 2026-07-06.",
-            "5. Draft follow-ups only for recipients who have not replied.",
+            "3. Remove replied or uninterested prospects from follow-up.",
+            "4. Draft concise no-reply follow-ups for the remaining due prospects.",
+            "5. Send follow-ups only from cybertenderbusiness@gmail.com.",
+        ]
+    elif counts.get("sent", 0):
+        immediate_bottleneck = f"watch replies and prepare the {next_followup} no-reply follow-up."
+        next_moves = [
+            "1. Open Gmail label CyberTender Radar/Outreach.",
+            "2. Record any replies in outreach_tracker.csv.",
+            f"3. Mark no replies for follow-up on {next_followup}.",
+            "4. Draft follow-ups only for recipients who have not replied.",
+            "5. Keep contact-form leads parked until email-batch signals are clear.",
         ]
     else:
         immediate_bottleneck = "prepare and send the first qualified outreach batch."
