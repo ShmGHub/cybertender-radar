@@ -3,7 +3,7 @@
 Generated for: 2026-07-06
 Sender account required: `cybertenderbusiness@gmail.com`
 
-Do not send these to recipients who have replied, bounced, unsubscribed, or said no.
+Gmail drafts have been created for these no-reply prospects. Do not send them to recipients who have replied, bounced, unsubscribed, or said no.
 
 ## 1. CYFOR
 

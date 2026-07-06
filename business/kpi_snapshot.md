@@ -1,6 +1,6 @@
 # CyberTender Radar KPI Snapshot
 
-Generated: 2026-07-06T11:05:31.660805Z
+Generated: 2026-07-06T21:00:35.540575Z
 
 ## Revenue
 
@@ -16,7 +16,7 @@ Generated: 2026-07-06T11:05:31.660805Z
 
 ## Outreach
 
-- sent: 18
+- no_reply_followup_drafted: 18
 
 ## Lead Pipeline
 
@@ -26,7 +26,7 @@ Generated: 2026-07-06T11:05:31.660805Z
 ## Draft Queues
 
 - New outreach drafts queued locally: 0
-- Follow-up drafts due locally: 18
+- Follow-up draft rows staged locally: 18
 
 ## Current Constraint
 

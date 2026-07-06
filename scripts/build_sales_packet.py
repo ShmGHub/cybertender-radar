@@ -6,7 +6,7 @@ from __future__ import annotations
 import csv
 import json
 from collections import Counter
-from datetime import date, datetime
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -50,14 +50,6 @@ def parse_date(value: str) -> date | None:
         return None
 
 
-def generated_day(feed: dict[str, Any]) -> date:
-    value = str(feed.get("generatedAt", "")).replace("Z", "+00:00")
-    try:
-        return datetime.fromisoformat(value).date()
-    except ValueError:
-        return date.today()
-
-
 def money(value: Any) -> str:
     return str(value or "Value not disclosed")
 
@@ -87,6 +79,10 @@ def rows_due(rows: list[dict[str, str]], today: date) -> list[dict[str, str]]:
 
 def rows_ready_to_send(rows: list[dict[str, str]]) -> list[dict[str, str]]:
     return [row for row in rows if row.get("status") == "business_gmail_draft_ready"]
+
+
+def rows_with_followup_drafts(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    return [row for row in rows if row.get("status") == "no_reply_followup_drafted"]
 
 
 def lead_pipeline_ready(rows: list[dict[str, str]]) -> list[dict[str, str]]:
@@ -141,9 +137,10 @@ def write_packet(
     lead_rows: list[dict[str, str]],
     due: list[dict[str, str]],
 ) -> None:
-    today = generated_day(feed)
+    today = date.today()
     counts = status_counts(rows)
     ready = rows_ready_to_send(rows)
+    followup_drafts = rows_with_followup_drafts(rows)
     lead_counts = status_counts(lead_rows)
     lead_ready = lead_pipeline_ready(lead_rows)
     next_followup = next_followup_date(rows, today)
@@ -155,6 +152,15 @@ def write_packet(
             "3. Send one by one from cybertenderbusiness@gmail.com.",
             "4. Change the tracker status from business_gmail_draft_ready to sent.",
             "5. Watch replies and record them in outreach_tracker.csv.",
+        ]
+    elif followup_drafts:
+        immediate_bottleneck = "review the no-reply follow-up drafts in business Gmail before sending."
+        next_moves = [
+            "1. Open Gmail drafts in cybertenderbusiness@gmail.com.",
+            "2. Review each CyberTender Radar follow-up draft.",
+            "3. Send only the drafts that still have no reply, bounce, unsubscribe, or no response.",
+            "4. Change sent follow-up rows from no_reply_followup_drafted to followup_sent.",
+            "5. Watch replies and record interested, not_interested, bounced, or no-reply outcomes.",
         ]
     elif due:
         immediate_bottleneck = "check replies and prepare due no-reply follow-ups."
@@ -226,6 +232,11 @@ def write_packet(
             lines.append(
                 f"- {row.get('company')}: business Gmail draft ready for {row.get('email_or_profile')} using {row.get('opportunity_mentioned')}."
             )
+    elif followup_drafts:
+        for row in followup_drafts:
+            lines.append(
+                f"- {row.get('company')}: no-reply follow-up draft ready for {row.get('email_or_profile')}."
+            )
     else:
         lines.append("- No business Gmail drafts are marked ready.")
 
@@ -260,7 +271,7 @@ def main() -> int:
     feed = load_feed()
     rows = load_tracker()
     lead_rows = load_lead_pipeline()
-    due = rows_due(rows, generated_day(feed))
+    due = rows_due(rows, date.today())
     write_followups(due)
     write_packet(feed, rows, lead_rows, due)
     print(f"Wrote {PACKET_PATH.relative_to(ROOT)} and {FOLLOWUPS_PATH.relative_to(ROOT)}")

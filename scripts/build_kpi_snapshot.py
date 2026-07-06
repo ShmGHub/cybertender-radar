@@ -87,7 +87,7 @@ def write_snapshot() -> None:
             "## Draft Queues",
             "",
             f"- New outreach drafts queued locally: {len(draft_rows)}",
-            f"- Follow-up drafts due locally: {len(followup_rows)}",
+            f"- Follow-up draft rows staged locally: {len(followup_rows)}",
             "",
             "## Current Constraint",
             "",

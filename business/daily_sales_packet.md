@@ -7,7 +7,7 @@ Generated: 2026-07-06T11:05:28.790904Z
 - Target: GBP 10,000/month.
 - Current paid customers tracked here: 0.
 - Practical path: 102 customers at GBP 99/month, or 51 customers at GBP 199/month.
-- Immediate bottleneck: check replies and prepare due no-reply follow-ups.
+- Immediate bottleneck: review the no-reply follow-up drafts in business Gmail before sending.
 
 ## Feed Snapshot
 
@@ -27,11 +27,28 @@ Generated: 2026-07-06T11:05:28.790904Z
 
 ## Outreach State
 
-- sent: 18
+- no_reply_followup_drafted: 18
 
 ## Ready In Business Gmail
 
-- No business Gmail drafts are marked ready.
+- CYFOR: no-reply follow-up draft ready for contact@cyfor.co.uk.
+- Forensic Control: no-reply follow-up draft ready for hello@forensiccontrol.com.
+- Athena Forensics: no-reply follow-up draft ready for enquiries@athenaforensics.co.uk.
+- CSIQ: no-reply follow-up draft ready for info@csiq.co.uk.
+- CyberGlobal: no-reply follow-up draft ready for info@cybergl.com.
+- EBC Group: no-reply follow-up draft ready for hello@ebcgroup.co.uk.
+- Public Digital: no-reply follow-up draft ready for contact@public.digital.
+- Bridewell: no-reply follow-up draft ready for hello@bridewell.com.
+- NCC Group: no-reply follow-up draft ready for response@nccgroup.com.
+- Coreitech: no-reply follow-up draft ready for sales@coreitech.co.uk.
+- i3Secure: no-reply follow-up draft ready for info@i3secure.co.uk.
+- Arcanum Cyber: no-reply follow-up draft ready for contact@arcanum-cyber.com.
+- Disking IT: no-reply follow-up draft ready for hello@diskingit.co.uk.
+- IntaForensics: no-reply follow-up draft ready for sales@intaforensics.com.
+- Digital Forensics Investigations: no-reply follow-up draft ready for info@computerforensicslab.co.uk.
+- EJN Labs: no-reply follow-up draft ready for Contact@ejnlabs.com.
+- Cyberis: no-reply follow-up draft ready for sales@cyberis.com.
+- LeftBrain: no-reply follow-up draft ready for hi@leftbrain.io.
 
 ## Lead Pipeline
 
@@ -40,29 +57,12 @@ Generated: 2026-07-06T11:05:28.790904Z
 
 ## Follow-Ups Due
 
-- CYFOR: follow up on BLC0109 - Digital Forensic Services DPS.
-- Forensic Control: follow up on BLC0109 - Digital Forensic Services DPS.
-- Athena Forensics: follow up on BLC0109 - Digital Forensic Services DPS.
-- CSIQ: follow up on IT and Cyber Security Services.
-- CyberGlobal: follow up on IT and Cyber Security Services.
-- EBC Group: follow up on IT and Cyber Security Services.
-- Public Digital: follow up on Cyber Security Services 3.
-- Bridewell: follow up on Cyber Security Services 3.
-- NCC Group: follow up on Cyber Security Services 3.
-- Coreitech: follow up on IT and Cyber Security Services.
-- i3Secure: follow up on Cyber Security Services 3.
-- Arcanum Cyber: follow up on Cyber Security Services 3.
-- Disking IT: follow up on IT and Cyber Security Services.
-- IntaForensics: follow up on BLC0109 - Digital Forensic Services DPS.
-- Digital Forensics Investigations: follow up on BLC0109 - Digital Forensic Services DPS.
-- EJN Labs: follow up on Cyber Security Services 3.
-- Cyberis: follow up on Cyber Security Services 3.
-- LeftBrain: follow up on Cyber Security Services 3.
+- No follow-ups due on 2026-07-06.
 
 ## Next Manual Move
 
-1. Open Gmail label CyberTender Radar/Outreach.
-2. Record any replies in outreach_tracker.csv.
-3. Remove replied or uninterested prospects from follow-up.
-4. Draft concise no-reply follow-ups for the remaining due prospects.
-5. Send follow-ups only from cybertenderbusiness@gmail.com.
+1. Open Gmail drafts in cybertenderbusiness@gmail.com.
+2. Review each CyberTender Radar follow-up draft.
+3. Send only the drafts that still have no reply, bounce, unsubscribe, or no response.
+4. Change sent follow-up rows from no_reply_followup_drafted to followup_sent.
+5. Watch replies and record interested, not_interested, bounced, or no-reply outcomes.
