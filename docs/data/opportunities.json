@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T11:05:28.790904Z",
+  "generatedAt": "2026-07-07T10:01:47.199569Z",
   "profile": {
     "name": "CyberTender Radar",
     "niche": "Cybersecurity and IT services opportunities for small suppliers",
@@ -7,36 +7,26 @@
     "targetCustomer": "Small cybersecurity consultancies, MSPs, and IT services firms"
   },
   "summary": {
-    "total": 3,
-    "highConfidence": 0,
+    "total": 7,
+    "highConfidence": 3,
     "markets": [
+      "UK",
       "US"
     ],
     "sources": [
-      "Grants.gov"
+      "Grants.gov",
+      "UK Contracts Finder"
     ],
-    "largestValue": null,
-    "largestValueLabel": "Value not disclosed",
-    "nextDeadlineDays": 25
+    "largestValue": 800000000,
+    "largestValueLabel": "GBP 800.0m",
+    "nextDeadlineDays": 24
   },
   "sources": [
     {
       "name": "UK Contracts Finder",
-      "status": "error",
-      "fetched": 0,
-      "errors": [
-        "cyber security: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-        "cybersecurity: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-        "information security: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-        "penetration testing: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-        "security operations: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-        "incident response: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-        "cloud security: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-        "network security: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-        "IT support: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-        "digital security: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-        "ISO 27001: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
-      ]
+      "status": "ok",
+      "fetched": 285,
+      "errors": []
     },
     {
       "name": "Grants.gov",
@@ -55,6 +45,157 @@
   ],
   "opportunities": [
     {
+      "id": "contracts-finder:4c8a6f7a-ea75-4463-b05a-a56c140a7582",
+      "source": "UK Contracts Finder",
+      "market": "UK",
+      "sourceKeyword": "cyber security",
+      "title": "Cyber Security Services 3",
+      "buyer": "Crown Commercial Service",
+      "status": "Open",
+      "opportunityType": "Contract",
+      "category": "IT services: consulting, software development, Internet and support",
+      "description": "Crown Commercial Service (CCS) set up a dynamic purchasing system for a period of 60 months and has invited bidders to request to participate for the Cyber Security Services 3 DPS. This DPS provides central government departments and the wider public sector with the opportunity to procure cyber services from a range of suppliers. The DPS filters are for certification, services, standards and experience. Appointed suppliers will be invited by customers (buyers) to submit tenders for relevant services through a call for competition. This notice is to advise that this DPS has been further extended to 13/02/2029 and based on current spend profiling the estimated total value will remain as GBP 800million.",
+      "publishedDate": "2022-12-20",
+      "deadlineDate": "2029-02-11",
+      "deadlineInDays": 950,
+      "value": 800000000,
+      "valueCurrency": "GBP",
+      "valueLabel": "GBP 800.0m",
+      "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West,Scotland,Wales,Northern Ireland",
+      "url": "https://www.contractsfinder.service.gov.uk/notice/4c8a6f7a-ea75-4463-b05a-a56c140a7582",
+      "apiUrl": "https://www.contractsfinder.service.gov.uk/api/rest/2/get_published_notice/json/4c8a6f7a-ea75-4463-b05a-a56c140a7582",
+      "isSmeSuitable": true,
+      "documents": [
+        "Attachment 1 - Cyber Services 3 Filter Matrix v6.xlsx",
+        "Attachment 2 - RM3764.3 MI template v5 (1).xls",
+        "RM3764iii Cyber services 3 DPS Buyer Needs v6.0.docx",
+        "RM3764iii Cyber services 3 DPS Buyer Needs v7.0.docx",
+        "DPS Schedule 1- Specification v6.docx",
+        "Attachment 6 - RM3764 SQ and DPSQ.pdf",
+        "RM3764.3 DPS Appointment Form v6.0.pdf",
+        "RM3764.iii_Cyber_Security_Services_Bid_Pack_v13.zip"
+      ],
+      "sourceKeywords": [
+        "cloud security",
+        "cyber security",
+        "digital security",
+        "information security",
+        "network security",
+        "security operations"
+      ],
+      "matchScore": 88,
+      "matchedTerms": [
+        "cyber",
+        "cyber security",
+        "it services",
+        "software"
+      ],
+      "confidence": "High",
+      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 950 days.",
+      "nextStep": "Open the official notice and confirm fit before bidding.",
+      "tags": [
+        "Cyber",
+        "Framework",
+        "SME-friendly"
+      ],
+      "sourceLinks": [
+        "https://www.find-tender.service.gov.uk/Notice/036913-2024",
+        "https://www.find-tender.service.gov.uk/Notice/048167-2025"
+      ]
+    },
+    {
+      "id": "contracts-finder:0540e547-aeb2-4e3a-a165-8dd00c8efb30",
+      "source": "UK Contracts Finder",
+      "market": "UK",
+      "sourceKeyword": "cyber security",
+      "title": "IT and Cyber Security Services",
+      "buyer": "Procurement Assist Limited c/o Integrated Facilities Management Bolton Ltd (iFM Bolton)",
+      "status": "Open",
+      "opportunityType": "Contract",
+      "category": "IT services: consulting, software development, Internet and support",
+      "description": "PA invites organisations to participate in a 60-month DPS for the provision of IT and Cyber Security Services. The DPS will be accessible by all current and future Clients of PA. The DPS may be used by all NHS Trusts, Social Housing Providers, Local Authorities, Blue Light Services, Education, Charities and all other contracting authorities that are located in the United Kingdom. Procurement Assist is publishing this Notice of Amendment made pursuant to the original Notice 2023/S 000-014645 to extend the DPS to 31 May 2029. The remaining information in relation to this DPS is unchanged.",
+      "publishedDate": "2025-01-10",
+      "deadlineDate": "2029-05-31",
+      "deadlineInDays": 1059,
+      "value": 75000000,
+      "valueCurrency": "GBP",
+      "valueLabel": "GBP 75.0m",
+      "region": "Any region",
+      "url": "https://www.contractsfinder.service.gov.uk/notice/0540e547-aeb2-4e3a-a165-8dd00c8efb30",
+      "apiUrl": "https://www.contractsfinder.service.gov.uk/api/rest/2/get_published_notice/json/0540e547-aeb2-4e3a-a165-8dd00c8efb30",
+      "isSmeSuitable": true,
+      "documents": [],
+      "sourceKeywords": [
+        "cloud security",
+        "cyber security",
+        "digital security",
+        "information security",
+        "network security",
+        "security operations"
+      ],
+      "matchScore": 88,
+      "matchedTerms": [
+        "cyber",
+        "cyber security",
+        "it services",
+        "software"
+      ],
+      "confidence": "High",
+      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 1059 days.",
+      "nextStep": "Open the official notice and confirm fit before bidding.",
+      "tags": [
+        "Cyber",
+        "Framework",
+        "SME-friendly"
+      ],
+      "sourceLinks": [
+        "https://www.delta-esourcing.com/tenders/UK-UK-Bolton:-IT-services:-consulting,-software-development,-Internet-and-support./965WRM954B"
+      ]
+    },
+    {
+      "id": "contracts-finder:d01b3b0e-1813-44f9-9e33-f72dd1f53c30",
+      "source": "UK Contracts Finder",
+      "market": "UK",
+      "sourceKeyword": "penetration testing",
+      "title": "BLC0109 - Digital Forensic Services DPS",
+      "buyer": "BlueLight Commercial",
+      "status": "Open",
+      "opportunityType": "Contract",
+      "category": "Administration, defence and social security services, Provision of services to the community",
+      "description": "This is a republication of OJEU reference 2020/S 203-494905 ( https://ted.europa.eu/en/notice/-/detail/494905-2020 ) which was originally published by the Police and Crime Commissioner for Dorset. The Dynamic Purchasing System has novated from the Police and Crime Commissioner for Dorset to Bluelight Commercial. Bluelight Commercial are leading a Digital Forensics Services Dynamic Purchasing System (DPS), which will be in place for an eight-year period from commencement of the DPS. The Authority and its Customers are seeking to award multiple Service Agreements through the following structure of requirements:- Lot 1A Digital Data Retrieval - Mobile Device Lot 1B Digital Data Retrieval - Computers Lot 2A Complex Digital Data Retrieval - Mobile Device Decrypt & Acquire Lot 2B Complex Digital Data Retrieval - Chip / Data Restoration Lot 2C Complex Digital Data Retrieval - Mobile Device Bespoke Lot 2D Complex Digital Data Retrieval - HDD/Peripheries Repair & Data Restoration Lot 2E Complex Digital Data Retrieval - Mobile Device Peripheries Lot 3 Digital Forensic Investigation & Evaluation Lot 4A Digital Forensic Case Evaluation - Cell Site Analysis Lot 4B Digital Forensic Case Evaluation - Still / Video Image Enhancement Lot 4C Digital Forensic Case Evaluation - Video Production and Presentation Lot 4D Digital Forensic Case Evaluation - Image Comparison - Face Lot 4E Digital Forensic Case Evaluation - Image Comparison - Clothing Lot 4F Digital Forensic Case Evaluation - Image Comparison - Vehicles Lot 4G Digital Forensic Case Evaluation - Image Comparison - Other Lot 4H Digital Forensic Case Evaluation - Audio Enhancement Lot 4I Digital Forensic Case Evaluation - Audio Analysis Lot 4J Digital Forensic Case Evaluation - Audio Voice Comparison Lot 5A Digital Forensics Quality Assurance - PT Trial - Mobile Device DDR Lot 5B Digital Forensics Quality Assurance - PT Trial - Computer DFI Lot 5C Digital Forensics Quality Assurance - GTD / Test Data Production Lot 5D Digital Forensics Quality Assurance - ISO 17020 / 17025 Training Lot 5E Digital Forensics Quality Assurance - Other Training e.g. Crim.PR / Expert Witness Lot 5F Digital Forensics Quality Assurance - Tool Training Lot 5G Digital Forensics Quality Assurance - Method Validation Lot 5H Digital Forensics Quality Assurance - Quality Assurance Consultancy Lot 6 Collection & Delivery (Lots 2A - E & 4A - J only) This is a strategic collaborative national (pan force) procurement, buying once for many, driving quality, standardisation, compliance with legislation and innovation, whilst increasing market capacity and capability. The DPS will provide opportunities for Forensic Service Providers to win business and provide a range of services which are compatible with operational capabilities at any given time. If you already have a place on the Digital Forensic Services...",
+      "publishedDate": "2025-01-30",
+      "deadlineDate": "2027-02-28",
+      "deadlineInDays": 236,
+      "value": 60000000,
+      "valueCurrency": "GBP",
+      "valueLabel": "GBP 60.0m",
+      "region": "Any region",
+      "url": "https://www.contractsfinder.service.gov.uk/notice/d01b3b0e-1813-44f9-9e33-f72dd1f53c30",
+      "apiUrl": "https://www.contractsfinder.service.gov.uk/api/rest/2/get_published_notice/json/d01b3b0e-1813-44f9-9e33-f72dd1f53c30",
+      "isSmeSuitable": true,
+      "documents": [],
+      "sourceKeywords": [
+        "ISO 27001",
+        "digital security",
+        "penetration testing"
+      ],
+      "matchScore": 81,
+      "matchedTerms": [
+        "digital forensics",
+        "digital"
+      ],
+      "confidence": "High",
+      "whyItMatters": "Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 236 days.",
+      "nextStep": "Open the official notice and confirm fit before bidding.",
+      "tags": [
+        "Framework",
+        "SME-friendly"
+      ],
+      "sourceLinks": [
+        "https://in-tendhost.co.uk/bluelightcommercial/aspx/"
+      ]
+    },
+    {
       "id": "grants-gov:363010",
       "source": "Grants.gov",
       "market": "US",
@@ -67,7 +208,7 @@
       "description": "National Cybersecurity Preparedness Consortium DHS-26-NPD-148-00-97 Department of Homeland Security - FEMA",
       "publishedDate": "2026-07-01",
       "deadlineDate": "2026-07-31",
-      "deadlineInDays": 25,
+      "deadlineInDays": 24,
       "value": null,
       "valueCurrency": "USD",
       "valueLabel": "Grant value varies",
@@ -83,7 +224,7 @@
         "cybersecurity"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches cyber, cybersecurity; deadline in 25 days.",
+      "whyItMatters": "Matches cyber, cybersecurity; deadline in 24 days.",
       "nextStep": "Review eligibility and application package on Grants.gov.",
       "tags": [
         "Cyber",
@@ -144,7 +285,7 @@
       "description": "Cybersecurity Innovation for Cyberinfrastructure 25-531 U.S. National Science Foundation",
       "publishedDate": "2025-01-04",
       "deadlineDate": "2027-01-20",
-      "deadlineInDays": 198,
+      "deadlineInDays": 197,
       "value": null,
       "valueCurrency": "USD",
       "valueLabel": "Grant value varies",
@@ -165,12 +306,60 @@
         "cybersecurity"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches cyber, cybersecurity; deadline in 198 days.",
+      "whyItMatters": "Matches cyber, cybersecurity; deadline in 197 days.",
       "nextStep": "Review eligibility and application package on Grants.gov.",
       "tags": [
         "Cyber",
         "Network",
         "Grant"
+      ]
+    },
+    {
+      "id": "contracts-finder:0d055249-a5f5-4a3f-92ca-a6b8125a70fd",
+      "source": "UK Contracts Finder",
+      "market": "UK",
+      "sourceKeyword": "penetration testing",
+      "title": "National Agreement for the Provision of Digital Forensics Services - (Procurement led by The Forensic Capability Network (FCN - the Authority) on behalf of Dorset Police & Crime Commissioner)",
+      "buyer": "South West Police Procurement Department (SWPPD)",
+      "status": "Open",
+      "opportunityType": "Contract",
+      "category": "Transport services (excl. Waste transport), Postal and telecommunications services, Post and courier services, Architectural, construction, engineering and inspection services, Technical testing, analysis and consultancy services, Analysis services, IT services: consulting, software development, Internet and support, Data services, Data-processing services, Administration, defence and social security services, Provision of services to the community, Public security, law and order services, Public security services, Business services: law, marketing, consulting, recruitment, printing and security, Investigation and security services",
+      "description": "The Forensic Capability Network (FCN - the Authority) on behalf of Dorset Police & Crime Commissioner are leading and awarding a National Digital Forensics Services arrangement to be available for use by the FCN's customers. The arrangement will be a Dynamic Purchasing System (DPS), which will be in place for an eight-year period from commencement of the DPS. The Authority and its Customers are seeking to award multiple Service Agreements through the following structure of requirements:- Lot 1A Digital Data Retrieval - Mobile Device Lot 1B Digital Data Retrieval - Computers Lot 2A Complex Digital Data Retrieval - Mobile Device Decrypt & Acquire Lot 2B Complex Digital Data Retrieval - Chip / Data Restoration Lot 2C Complex Digital Data Retrieval - Mobile Device Bespoke Lot 2D Complex Digital Data Retrieval - HDD/Peripheries Repair & Data Restoration Lot 2E Complex Digital Data Retrieval - Mobile Device Peripheries Lot 3 Digital Forensic Investigation & Evaluation Lot 4A Digital Forensic Case Evaluation - Cell Site Analysis Lot 4B Digital Forensic Case Evaluation - Still / Video Image Enhancement Lot 4C Digital Forensic Case Evaluation - Video Production and Presentation Lot 4D Digital Forensic Case Evaluation - Image Comparison - Face Lot 4E Digital Forensic Case Evaluation - Image Comparison - Clothing Lot 4F Digital Forensic Case Evaluation - Image Comparison - Vehicles Lot 4G Digital Forensic Case Evaluation - Image Comparison - Other Lot 4H Digital Forensic Case Evaluation - Audio Enhancement Lot 4I Digital Forensic Case Evaluation - Audio Analysis Lot 4J Digital Forensic Case Evaluation - Audio Voice Comparison Lot 5A Digital Forensics Quality Assurance - PT Trial - Mobile Device DDR Lot 5B Digital Forensics Quality Assurance - PT Trial - Computer DFI Lot 5C Digital Forensics Quality Assurance - GTD / Test Data Production Lot 5D Digital Forensics Quality Assurance - ISO 17020 / 17025 Training Lot 5E Digital Forensics Quality Assurance - Other Training e.g. Crim.PR / Expert Witness Lot 5F Digital Forensics Quality Assurance - Tool Training Lot 5G Digital Forensics Quality Assurance - Method Validation Lot 5H Digital Forensics Quality Assurance - Quality Assurance Consultancy Lot 6 Collection & Delivery (Lots 2A - E & 4A - J only) We are pleased to invite you to participate in this procurement (Stage 1 of the DPS the Selection Stage). Upon expressing an interest by \"accepting\" this opportunity you will have full access to the suite of guidance documents located in the \"access documents\" folder in this Bluelight e- tendering Portal and the online Selection Questionnaire. To note this is a completely electronic process and therefore all communications must be made and received via this Bluelight e-tendering portal.",
+      "publishedDate": "2020-10-16",
+      "deadlineDate": "2028-10-16",
+      "deadlineInDays": 832,
+      "value": 60000000,
+      "valueCurrency": "GBP",
+      "valueLabel": "GBP 60.0m",
+      "region": "Any region",
+      "url": "https://www.contractsfinder.service.gov.uk/notice/0d055249-a5f5-4a3f-92ca-a6b8125a70fd",
+      "apiUrl": "https://www.contractsfinder.service.gov.uk/api/rest/2/get_published_notice/json/0d055249-a5f5-4a3f-92ca-a6b8125a70fd",
+      "isSmeSuitable": true,
+      "documents": [],
+      "sourceKeywords": [
+        "ISO 27001",
+        "digital security",
+        "network security",
+        "penetration testing"
+      ],
+      "matchScore": 48,
+      "matchedTerms": [
+        "digital forensics",
+        "digital",
+        "it services",
+        "software"
+      ],
+      "confidence": "Medium",
+      "whyItMatters": "Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 832 days.",
+      "nextStep": "Open the official notice and confirm fit before bidding.",
+      "tags": [
+        "Network",
+        "Framework",
+        "SME-friendly"
+      ],
+      "sourceLinks": [
+        "https://uk.eu-supply.com/app/rfq/rwlentrance_s.asp?PID=34023&B=BLUELIGHT",
+        "https://uk.eu-supply.com/ctm/Company/CompanyInformation/Index/30310"
       ]
     }
   ]
