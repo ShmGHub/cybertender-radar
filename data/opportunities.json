@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T08:45:16.444673Z",
+  "generatedAt": "2026-07-09T09:58:47.213635Z",
   "profile": {
     "name": "CyberTender Radar",
     "niche": "Cybersecurity and IT services opportunities for small suppliers",
@@ -19,13 +19,13 @@
     ],
     "largestValue": 800000000,
     "largestValueLabel": "GBP 800.0m",
-    "nextDeadlineDays": 23
+    "nextDeadlineDays": 22
   },
   "sources": [
     {
       "name": "UK Contracts Finder",
       "status": "ok",
-      "fetched": 289,
+      "fetched": 293,
       "errors": []
     },
     {
@@ -57,7 +57,7 @@
       "description": "Crown Commercial Service (CCS) set up a dynamic purchasing system for a period of 60 months and has invited bidders to request to participate for the Cyber Security Services 3 DPS. This DPS provides central government departments and the wider public sector with the opportunity to procure cyber services from a range of suppliers. The DPS filters are for certification, services, standards and experience. Appointed suppliers will be invited by customers (buyers) to submit tenders for relevant services through a call for competition. This notice is to advise that this DPS has been further extended to 13/02/2029 and based on current spend profiling the estimated total value will remain as GBP 800million.",
       "publishedDate": "2022-12-20",
       "deadlineDate": "2029-02-11",
-      "deadlineInDays": 949,
+      "deadlineInDays": 948,
       "value": 800000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 800.0m",
@@ -91,7 +91,7 @@
         "software"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 949 days.",
+      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 948 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Cyber",
@@ -116,7 +116,7 @@
       "description": "PA invites organisations to participate in a 60-month DPS for the provision of IT and Cyber Security Services. The DPS will be accessible by all current and future Clients of PA. The DPS may be used by all NHS Trusts, Social Housing Providers, Local Authorities, Blue Light Services, Education, Charities and all other contracting authorities that are located in the United Kingdom. Procurement Assist is publishing this Notice of Amendment made pursuant to the original Notice 2023/S 000-014645 to extend the DPS to 31 May 2029. The remaining information in relation to this DPS is unchanged.",
       "publishedDate": "2025-01-10",
       "deadlineDate": "2029-05-31",
-      "deadlineInDays": 1058,
+      "deadlineInDays": 1057,
       "value": 75000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 75.0m",
@@ -141,7 +141,7 @@
         "software"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 1058 days.",
+      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 1057 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Cyber",
@@ -165,7 +165,7 @@
       "description": "This is a republication of OJEU reference 2020/S 203-494905 ( https://ted.europa.eu/en/notice/-/detail/494905-2020 ) which was originally published by the Police and Crime Commissioner for Dorset. The Dynamic Purchasing System has novated from the Police and Crime Commissioner for Dorset to Bluelight Commercial. Bluelight Commercial are leading a Digital Forensics Services Dynamic Purchasing System (DPS), which will be in place for an eight-year period from commencement of the DPS. The Authority and its Customers are seeking to award multiple Service Agreements through the following structure of requirements:- Lot 1A Digital Data Retrieval - Mobile Device Lot 1B Digital Data Retrieval - Computers Lot 2A Complex Digital Data Retrieval - Mobile Device Decrypt & Acquire Lot 2B Complex Digital Data Retrieval - Chip / Data Restoration Lot 2C Complex Digital Data Retrieval - Mobile Device Bespoke Lot 2D Complex Digital Data Retrieval - HDD/Peripheries Repair & Data Restoration Lot 2E Complex Digital Data Retrieval - Mobile Device Peripheries Lot 3 Digital Forensic Investigation & Evaluation Lot 4A Digital Forensic Case Evaluation - Cell Site Analysis Lot 4B Digital Forensic Case Evaluation - Still / Video Image Enhancement Lot 4C Digital Forensic Case Evaluation - Video Production and Presentation Lot 4D Digital Forensic Case Evaluation - Image Comparison - Face Lot 4E Digital Forensic Case Evaluation - Image Comparison - Clothing Lot 4F Digital Forensic Case Evaluation - Image Comparison - Vehicles Lot 4G Digital Forensic Case Evaluation - Image Comparison - Other Lot 4H Digital Forensic Case Evaluation - Audio Enhancement Lot 4I Digital Forensic Case Evaluation - Audio Analysis Lot 4J Digital Forensic Case Evaluation - Audio Voice Comparison Lot 5A Digital Forensics Quality Assurance - PT Trial - Mobile Device DDR Lot 5B Digital Forensics Quality Assurance - PT Trial - Computer DFI Lot 5C Digital Forensics Quality Assurance - GTD / Test Data Production Lot 5D Digital Forensics Quality Assurance - ISO 17020 / 17025 Training Lot 5E Digital Forensics Quality Assurance - Other Training e.g. Crim.PR / Expert Witness Lot 5F Digital Forensics Quality Assurance - Tool Training Lot 5G Digital Forensics Quality Assurance - Method Validation Lot 5H Digital Forensics Quality Assurance - Quality Assurance Consultancy Lot 6 Collection & Delivery (Lots 2A - E & 4A - J only) This is a strategic collaborative national (pan force) procurement, buying once for many, driving quality, standardisation, compliance with legislation and innovation, whilst increasing market capacity and capability. The DPS will provide opportunities for Forensic Service Providers to win business and provide a range of services which are compatible with operational capabilities at any given time. If you already have a place on the Digital Forensic Services...",
       "publishedDate": "2025-01-30",
       "deadlineDate": "2027-02-28",
-      "deadlineInDays": 235,
+      "deadlineInDays": 234,
       "value": 60000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 60.0m",
@@ -185,7 +185,7 @@
         "digital"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 235 days.",
+      "whyItMatters": "Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 234 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Framework",
@@ -208,7 +208,7 @@
       "description": "National Cybersecurity Preparedness Consortium DHS-26-NPD-148-00-97 Department of Homeland Security - FEMA",
       "publishedDate": "2026-07-01",
       "deadlineDate": "2026-07-31",
-      "deadlineInDays": 23,
+      "deadlineInDays": 22,
       "value": null,
       "valueCurrency": "USD",
       "valueLabel": "Grant value varies",
@@ -224,7 +224,7 @@
         "cybersecurity"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches cyber, cybersecurity; deadline in 23 days.",
+      "whyItMatters": "Matches cyber, cybersecurity; deadline in 22 days.",
       "nextStep": "Review eligibility and application package on Grants.gov.",
       "tags": [
         "Cyber",
@@ -285,7 +285,7 @@
       "description": "Cybersecurity Innovation for Cyberinfrastructure 25-531 U.S. National Science Foundation",
       "publishedDate": "2025-01-04",
       "deadlineDate": "2027-01-20",
-      "deadlineInDays": 196,
+      "deadlineInDays": 195,
       "value": null,
       "valueCurrency": "USD",
       "valueLabel": "Grant value varies",
@@ -306,7 +306,7 @@
         "cybersecurity"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches cyber, cybersecurity; deadline in 196 days.",
+      "whyItMatters": "Matches cyber, cybersecurity; deadline in 195 days.",
       "nextStep": "Review eligibility and application package on Grants.gov.",
       "tags": [
         "Cyber",
@@ -327,7 +327,7 @@
       "description": "The Forensic Capability Network (FCN - the Authority) on behalf of Dorset Police & Crime Commissioner are leading and awarding a National Digital Forensics Services arrangement to be available for use by the FCN's customers. The arrangement will be a Dynamic Purchasing System (DPS), which will be in place for an eight-year period from commencement of the DPS. The Authority and its Customers are seeking to award multiple Service Agreements through the following structure of requirements:- Lot 1A Digital Data Retrieval - Mobile Device Lot 1B Digital Data Retrieval - Computers Lot 2A Complex Digital Data Retrieval - Mobile Device Decrypt & Acquire Lot 2B Complex Digital Data Retrieval - Chip / Data Restoration Lot 2C Complex Digital Data Retrieval - Mobile Device Bespoke Lot 2D Complex Digital Data Retrieval - HDD/Peripheries Repair & Data Restoration Lot 2E Complex Digital Data Retrieval - Mobile Device Peripheries Lot 3 Digital Forensic Investigation & Evaluation Lot 4A Digital Forensic Case Evaluation - Cell Site Analysis Lot 4B Digital Forensic Case Evaluation - Still / Video Image Enhancement Lot 4C Digital Forensic Case Evaluation - Video Production and Presentation Lot 4D Digital Forensic Case Evaluation - Image Comparison - Face Lot 4E Digital Forensic Case Evaluation - Image Comparison - Clothing Lot 4F Digital Forensic Case Evaluation - Image Comparison - Vehicles Lot 4G Digital Forensic Case Evaluation - Image Comparison - Other Lot 4H Digital Forensic Case Evaluation - Audio Enhancement Lot 4I Digital Forensic Case Evaluation - Audio Analysis Lot 4J Digital Forensic Case Evaluation - Audio Voice Comparison Lot 5A Digital Forensics Quality Assurance - PT Trial - Mobile Device DDR Lot 5B Digital Forensics Quality Assurance - PT Trial - Computer DFI Lot 5C Digital Forensics Quality Assurance - GTD / Test Data Production Lot 5D Digital Forensics Quality Assurance - ISO 17020 / 17025 Training Lot 5E Digital Forensics Quality Assurance - Other Training e.g. Crim.PR / Expert Witness Lot 5F Digital Forensics Quality Assurance - Tool Training Lot 5G Digital Forensics Quality Assurance - Method Validation Lot 5H Digital Forensics Quality Assurance - Quality Assurance Consultancy Lot 6 Collection & Delivery (Lots 2A - E & 4A - J only) We are pleased to invite you to participate in this procurement (Stage 1 of the DPS the Selection Stage). Upon expressing an interest by \"accepting\" this opportunity you will have full access to the suite of guidance documents located in the \"access documents\" folder in this Bluelight e- tendering Portal and the online Selection Questionnaire. To note this is a completely electronic process and therefore all communications must be made and received via this Bluelight e-tendering portal.",
       "publishedDate": "2020-10-16",
       "deadlineDate": "2028-10-16",
-      "deadlineInDays": 831,
+      "deadlineInDays": 830,
       "value": 60000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 60.0m",
@@ -350,7 +350,7 @@
         "software"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 831 days.",
+      "whyItMatters": "Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 830 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Network",
