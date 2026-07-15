@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T08:29:00.209722Z",
+  "generatedAt": "2026-07-15T08:36:46.405874Z",
   "profile": {
     "name": "CyberTender Radar",
     "niche": "Cybersecurity and IT services opportunities for small suppliers",
@@ -7,7 +7,7 @@
     "targetCustomer": "Small cybersecurity consultancies, MSPs, and IT services firms"
   },
   "summary": {
-    "total": 7,
+    "total": 8,
     "highConfidence": 3,
     "markets": [
       "UK",
@@ -19,13 +19,13 @@
     ],
     "largestValue": 800000000,
     "largestValueLabel": "GBP 800.0m",
-    "nextDeadlineDays": 17
+    "nextDeadlineDays": 6
   },
   "sources": [
     {
       "name": "UK Contracts Finder",
       "status": "ok",
-      "fetched": 296,
+      "fetched": 304,
       "errors": []
     },
     {
@@ -57,7 +57,7 @@
       "description": "Crown Commercial Service (CCS) set up a dynamic purchasing system for a period of 60 months and has invited bidders to request to participate for the Cyber Security Services 3 DPS. This DPS provides central government departments and the wider public sector with the opportunity to procure cyber services from a range of suppliers. The DPS filters are for certification, services, standards and experience. Appointed suppliers will be invited by customers (buyers) to submit tenders for relevant services through a call for competition. This notice is to advise that this DPS has been further extended to 13/02/2029 and based on current spend profiling the estimated total value will remain as GBP 800million.",
       "publishedDate": "2022-12-20",
       "deadlineDate": "2029-02-11",
-      "deadlineInDays": 943,
+      "deadlineInDays": 942,
       "value": 800000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 800.0m",
@@ -91,7 +91,7 @@
         "software"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 943 days.",
+      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 942 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Cyber",
@@ -116,7 +116,7 @@
       "description": "PA invites organisations to participate in a 60-month DPS for the provision of IT and Cyber Security Services. The DPS will be accessible by all current and future Clients of PA. The DPS may be used by all NHS Trusts, Social Housing Providers, Local Authorities, Blue Light Services, Education, Charities and all other contracting authorities that are located in the United Kingdom. Procurement Assist is publishing this Notice of Amendment made pursuant to the original Notice 2023/S 000-014645 to extend the DPS to 31 May 2029. The remaining information in relation to this DPS is unchanged.",
       "publishedDate": "2025-01-10",
       "deadlineDate": "2029-05-31",
-      "deadlineInDays": 1052,
+      "deadlineInDays": 1051,
       "value": 75000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 75.0m",
@@ -141,7 +141,7 @@
         "software"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 1052 days.",
+      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 1051 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Cyber",
@@ -165,7 +165,7 @@
       "description": "This is a republication of OJEU reference 2020/S 203-494905 ( https://ted.europa.eu/en/notice/-/detail/494905-2020 ) which was originally published by the Police and Crime Commissioner for Dorset. The Dynamic Purchasing System has novated from the Police and Crime Commissioner for Dorset to Bluelight Commercial. Bluelight Commercial are leading a Digital Forensics Services Dynamic Purchasing System (DPS), which will be in place for an eight-year period from commencement of the DPS. The Authority and its Customers are seeking to award multiple Service Agreements through the following structure of requirements:- Lot 1A Digital Data Retrieval - Mobile Device Lot 1B Digital Data Retrieval - Computers Lot 2A Complex Digital Data Retrieval - Mobile Device Decrypt & Acquire Lot 2B Complex Digital Data Retrieval - Chip / Data Restoration Lot 2C Complex Digital Data Retrieval - Mobile Device Bespoke Lot 2D Complex Digital Data Retrieval - HDD/Peripheries Repair & Data Restoration Lot 2E Complex Digital Data Retrieval - Mobile Device Peripheries Lot 3 Digital Forensic Investigation & Evaluation Lot 4A Digital Forensic Case Evaluation - Cell Site Analysis Lot 4B Digital Forensic Case Evaluation - Still / Video Image Enhancement Lot 4C Digital Forensic Case Evaluation - Video Production and Presentation Lot 4D Digital Forensic Case Evaluation - Image Comparison - Face Lot 4E Digital Forensic Case Evaluation - Image Comparison - Clothing Lot 4F Digital Forensic Case Evaluation - Image Comparison - Vehicles Lot 4G Digital Forensic Case Evaluation - Image Comparison - Other Lot 4H Digital Forensic Case Evaluation - Audio Enhancement Lot 4I Digital Forensic Case Evaluation - Audio Analysis Lot 4J Digital Forensic Case Evaluation - Audio Voice Comparison Lot 5A Digital Forensics Quality Assurance - PT Trial - Mobile Device DDR Lot 5B Digital Forensics Quality Assurance - PT Trial - Computer DFI Lot 5C Digital Forensics Quality Assurance - GTD / Test Data Production Lot 5D Digital Forensics Quality Assurance - ISO 17020 / 17025 Training Lot 5E Digital Forensics Quality Assurance - Other Training e.g. Crim.PR / Expert Witness Lot 5F Digital Forensics Quality Assurance - Tool Training Lot 5G Digital Forensics Quality Assurance - Method Validation Lot 5H Digital Forensics Quality Assurance - Quality Assurance Consultancy Lot 6 Collection & Delivery (Lots 2A - E & 4A - J only) This is a strategic collaborative national (pan force) procurement, buying once for many, driving quality, standardisation, compliance with legislation and innovation, whilst increasing market capacity and capability. The DPS will provide opportunities for Forensic Service Providers to win business and provide a range of services which are compatible with operational capabilities at any given time. If you already have a place on the Digital Forensic Services...",
       "publishedDate": "2025-01-30",
       "deadlineDate": "2027-02-28",
-      "deadlineInDays": 229,
+      "deadlineInDays": 228,
       "value": 60000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 60.0m",
@@ -185,7 +185,7 @@
         "digital"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 229 days.",
+      "whyItMatters": "Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 228 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Framework",
@@ -193,6 +193,48 @@
       ],
       "sourceLinks": [
         "https://in-tendhost.co.uk/bluelightcommercial/aspx/"
+      ]
+    },
+    {
+      "id": "contracts-finder:0207443b-1149-4671-93c1-deeb8cf990ef",
+      "source": "UK Contracts Finder",
+      "market": "UK",
+      "sourceKeyword": "penetration testing",
+      "title": "Opportunity to Tender - Ground Investigation - Regional Framework Lots (England) - J. Murphy & Sons",
+      "buyer": "BIP SOLUTIONS LIMITED",
+      "status": "Open",
+      "opportunityType": "Contract",
+      "category": "Architectural, construction, engineering and inspection services, Engineering services, Consultative engineering and construction services, Civil engineering consultancy services",
+      "description": "J. Murphy & Sons invites expressions of interest from experienced civil engineering subcontractors for inclusion on a framework of regional lots across England, supporting major infrastructure programmes. The framework will provide call off opportunities aligned to regional delivery teams and project locations. Project Portfolio Includes: Network Rail CP7 TransPennine Route Upgrade (TRU) Peel Ports Other rail and infrastructure projects across England Scope of Services: The framework will cover the provision of ground investigation services, including: Intrusive Ground Investigation Percussion boring Rotary drilling Trial pitting Structure coring Sampling & Site Data Collection Soil, rock and groundwater sampling Disturbed and undisturbed sampling techniques Installation monitoring and inspection Automatic Ballast Sampling (ABS), where required In Situ Testing Standard Penetration Testing (SPT) Cone Penetration Testing (CPT) Plate load and permeability testing Other in situ testing methods as appropriate Geophysical & Specialist Testing Non intrusive geophysical surveys Subsurface profiling and detection techniques Instrumentation & Monitoring Supply and installation of instrumentation Monitoring and data collection (e.g. inclinometers, piezometers) Anchoring systems and associated ancillary components Laboratory Testing Geotechnical laboratory testing of soil, rock and groundwater samples How to Apply: Suppliers must express interest through CompeteFor to receive further tender information, including lot structure and next steps. About the buyer's selection process: Regional Approach: The framework will be structured into regional lots across England, allowing suppliers to bid for one or multiple regions based on: Technical capability across investigation disciplines Availability of specialist plant, rigs and equipment Regional coverage and mobilisation times Capacity to deliver multiple concurrent investigations",
+      "publishedDate": "2026-07-14",
+      "deadlineDate": "2026-07-21",
+      "deadlineInDays": 6,
+      "value": 500000,
+      "valueCurrency": "GBP",
+      "valueLabel": "GBP 500k",
+      "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West,Scotland,Wales,Northern Ireland,Isle of Man,Guernsey,Jersey,Anguilla,Bermuda,British Antarctic Territory,British Indian Ocean Territory,British Virgin Islands,Cayman Islands,Falkland Islands,Gibraltar,Montserrat,Pitcairn Henderson Ducie and Oeno Islands,Saint Helena Ascension and Tristan da Cunha,South Georgia and South Sandwich Islands,Turks and Caicos Islands,Albania,Austria,Belgium,Bulgaria,Croatia,Cyprus,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Latvia,Liechtenstein,Lithuania,Luxembourg,Malta,Montenegro,Netherlands,North Macedonia,Norway,Poland,Portugal,Romania,Serbia,Slovakia,Slovenia,Spain,Sweden,Switzerland,Turkey,Afghanistan,Algeria,American Samoa,Andorra,Angola,Antarctica,Antigua and Barbuda,Argentina,Armenia,Aruba,Australia,Azerbaijan,Bahrain,Bangladesh,Barbados,Belarus,Belize,Benin,Bhutan,Bolivia,Bonaire Sint Eustatius and Saba,Bosnia and Herzegovina,Botswana,Bouvet Island,Brazil,Brunei,Burkina Faso,Burundi,Cambodia,Cameroon,Canada,Cape Verde,Central African Republic,Chad,Chile,China,Christmas Island,Clipperton,Cocos (Keeling) Islands,Colombia,Comoros,Congo,Congo (Democratic Republic),Cook Islands,Costa Rica,Cuba,Curacao,Djibouti,Dominica,Dominican Republic,East Timor,Ecuador,Egypt,El Salvador,Equatorial Guinea,Eritrea,Eswatini,Ethiopia,Faroe Islands,Fiji,French Polynesia,French Southern Territories,Gabon,Georgia,Ghana,Greenland,Grenada,Guam,Guatemala,Guinea,Guinea-Bissau,Guyana,Haiti,Heard Island and McDonald Islands,Honduras,Hong Kong,India,Indonesia,Iran,Iraq,Israel,Ivory Coast,Jamaica,Japan,Jordan,Kazakhstan,Kenya,Kiribati,Kosovo,Kuwait,Laos,Kyrgyzstan,Lebanon,Lesotho,Liberia,Libya,Macao,Madagascar,Malawi,Malaysia,Maldives,Mali,Marshall Islands,Mauritania,Mauritius,Mexico,Micronesia,Moldova,Monaco,Mongolia,Morocco,Mozambique,Myanmar (Burma),Namibia,Nauru,Nepal,New Caledonia,New Zealand,Nicaragua,Niger,Nigeria,Niue,Norfolk Island,North Korea,Northern Mariana Islands,Occupied Palestinian Territories,Oman,Pakistan,Palau,Panama,Papua New Guinea,Paraguay,Peru,Philippines,Puerto Rico,Qatar,Russia,Rwanda,Saint Barthelemy,Saint Pierre and Miquelon,Samoa,San Marino,Sao Tome and Principe,Saudi Arabia,Senegal,Seychelles,Sierra Leone,Singapore,Sint Maarten (Dutch part),Solomon Islands,Somalia,South Africa,South Korea,South Sudan,Sri Lanka,St Kitts and Nevis,St Lucia,St Vincent,Sudan,Suriname,Svalbard and Jan Mayen,Syria,Taiwan,Tajikistan,Tanzania,Thailand,The Bahamas,The Gambia,Togo,Tokelau,Tonga,Trinidad and Tobago,Tunisia,Turkmenistan,Tuvalu,Uganda,Ukraine,United Arab Emirates,United States,United States Minor Outlying Islands,United States Virgin Islands,Uruguay,Uzbekistan,Vanuatu,Vatican City,Venezuela,Vietnam,Wallis and Futuna,Western Sahara,Yemen,Zambia,Zimbabwe",
+      "url": "https://www.contractsfinder.service.gov.uk/notice/0207443b-1149-4671-93c1-deeb8cf990ef",
+      "apiUrl": "https://www.contractsfinder.service.gov.uk/api/rest/2/get_published_notice/json/0207443b-1149-4671-93c1-deeb8cf990ef",
+      "isSmeSuitable": true,
+      "documents": [],
+      "sourceKeywords": [
+        "network security",
+        "penetration testing"
+      ],
+      "matchScore": 62,
+      "matchedTerms": [
+        "penetration testing"
+      ],
+      "confidence": "Medium",
+      "whyItMatters": "Matches penetration testing; marked SME-suitable; value around GBP 500k; deadline in 6 days.",
+      "nextStep": "Open the official notice and confirm fit before bidding.",
+      "tags": [
+        "Network",
+        "Framework",
+        "SME-friendly"
+      ],
+      "sourceLinks": [
+        "https://www.competefor.com/business/viewOpportunityDetailsSupplier.html?id=115365357"
       ]
     },
     {
@@ -208,7 +250,7 @@
       "description": "National Cybersecurity Preparedness Consortium DHS-26-NPD-148-00-97 Department of Homeland Security - FEMA",
       "publishedDate": "2026-07-01",
       "deadlineDate": "2026-07-31",
-      "deadlineInDays": 17,
+      "deadlineInDays": 16,
       "value": null,
       "valueCurrency": "USD",
       "valueLabel": "Grant value varies",
@@ -224,7 +266,7 @@
         "cybersecurity"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches cyber, cybersecurity; deadline in 17 days.",
+      "whyItMatters": "Matches cyber, cybersecurity; deadline in 16 days.",
       "nextStep": "Review eligibility and application package on Grants.gov.",
       "tags": [
         "Cyber",
@@ -285,7 +327,7 @@
       "description": "Cybersecurity Innovation for Cyberinfrastructure 25-531 U.S. National Science Foundation",
       "publishedDate": "2025-01-04",
       "deadlineDate": "2027-01-20",
-      "deadlineInDays": 190,
+      "deadlineInDays": 189,
       "value": null,
       "valueCurrency": "USD",
       "valueLabel": "Grant value varies",
@@ -306,7 +348,7 @@
         "cybersecurity"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches cyber, cybersecurity; deadline in 190 days.",
+      "whyItMatters": "Matches cyber, cybersecurity; deadline in 189 days.",
       "nextStep": "Review eligibility and application package on Grants.gov.",
       "tags": [
         "Cyber",
@@ -327,7 +369,7 @@
       "description": "The Forensic Capability Network (FCN - the Authority) on behalf of Dorset Police & Crime Commissioner are leading and awarding a National Digital Forensics Services arrangement to be available for use by the FCN's customers. The arrangement will be a Dynamic Purchasing System (DPS), which will be in place for an eight-year period from commencement of the DPS. The Authority and its Customers are seeking to award multiple Service Agreements through the following structure of requirements:- Lot 1A Digital Data Retrieval - Mobile Device Lot 1B Digital Data Retrieval - Computers Lot 2A Complex Digital Data Retrieval - Mobile Device Decrypt & Acquire Lot 2B Complex Digital Data Retrieval - Chip / Data Restoration Lot 2C Complex Digital Data Retrieval - Mobile Device Bespoke Lot 2D Complex Digital Data Retrieval - HDD/Peripheries Repair & Data Restoration Lot 2E Complex Digital Data Retrieval - Mobile Device Peripheries Lot 3 Digital Forensic Investigation & Evaluation Lot 4A Digital Forensic Case Evaluation - Cell Site Analysis Lot 4B Digital Forensic Case Evaluation - Still / Video Image Enhancement Lot 4C Digital Forensic Case Evaluation - Video Production and Presentation Lot 4D Digital Forensic Case Evaluation - Image Comparison - Face Lot 4E Digital Forensic Case Evaluation - Image Comparison - Clothing Lot 4F Digital Forensic Case Evaluation - Image Comparison - Vehicles Lot 4G Digital Forensic Case Evaluation - Image Comparison - Other Lot 4H Digital Forensic Case Evaluation - Audio Enhancement Lot 4I Digital Forensic Case Evaluation - Audio Analysis Lot 4J Digital Forensic Case Evaluation - Audio Voice Comparison Lot 5A Digital Forensics Quality Assurance - PT Trial - Mobile Device DDR Lot 5B Digital Forensics Quality Assurance - PT Trial - Computer DFI Lot 5C Digital Forensics Quality Assurance - GTD / Test Data Production Lot 5D Digital Forensics Quality Assurance - ISO 17020 / 17025 Training Lot 5E Digital Forensics Quality Assurance - Other Training e.g. Crim.PR / Expert Witness Lot 5F Digital Forensics Quality Assurance - Tool Training Lot 5G Digital Forensics Quality Assurance - Method Validation Lot 5H Digital Forensics Quality Assurance - Quality Assurance Consultancy Lot 6 Collection & Delivery (Lots 2A - E & 4A - J only) We are pleased to invite you to participate in this procurement (Stage 1 of the DPS the Selection Stage). Upon expressing an interest by \"accepting\" this opportunity you will have full access to the suite of guidance documents located in the \"access documents\" folder in this Bluelight e- tendering Portal and the online Selection Questionnaire. To note this is a completely electronic process and therefore all communications must be made and received via this Bluelight e-tendering portal.",
       "publishedDate": "2020-10-16",
       "deadlineDate": "2028-10-16",
-      "deadlineInDays": 825,
+      "deadlineInDays": 824,
       "value": 60000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 60.0m",
@@ -350,7 +392,7 @@
         "software"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 825 days.",
+      "whyItMatters": "Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 824 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Network",
