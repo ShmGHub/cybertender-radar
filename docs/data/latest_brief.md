@@ -1,6 +1,6 @@
 # CyberTender Radar Daily Brief
 
-Generated: 2026-07-20T09:35:17.372132Z
+Generated: 2026-07-21T08:46:49.385307Z
 
 Tracked opportunities: 8
 High-confidence matches: 3
@@ -13,7 +13,7 @@ High-confidence matches: 3
 - Buyer: Crown Commercial Service
 - Value: GBP 800.0m
 - Deadline: 2029-02-11
-- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 937 days.
+- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 936 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/4c8a6f7a-ea75-4463-b05a-a56c140a7582
 
 ### 2. IT and Cyber Security Services
@@ -22,7 +22,7 @@ High-confidence matches: 3
 - Buyer: Procurement Assist Limited c/o Integrated Facilities Management Bolton Ltd (iFM Bolton)
 - Value: GBP 75.0m
 - Deadline: 2029-05-31
-- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 1046 days.
+- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 1045 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/0540e547-aeb2-4e3a-a165-8dd00c8efb30
 
 ### 3. BLC0109 - Digital Forensic Services DPS
@@ -31,35 +31,35 @@ High-confidence matches: 3
 - Buyer: BlueLight Commercial
 - Value: GBP 60.0m
 - Deadline: 2027-02-28
-- Why: Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 223 days.
+- Why: Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 222 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/d01b3b0e-1813-44f9-9e33-f72dd1f53c30
 
-### 4. Opportunity to Tender - Ground Investigation - Regional Framework Lots (England) - J. Murphy & Sons
-
-- Score: 62 (Medium)
-- Buyer: BIP SOLUTIONS LIMITED
-- Value: GBP 500k
-- Deadline: 2026-07-21
-- Why: Matches penetration testing; marked SME-suitable; value around GBP 500k; deadline in 1 days.
-- Official link: https://www.contractsfinder.service.gov.uk/notice/0207443b-1149-4671-93c1-deeb8cf990ef
-
-### 5. National Cybersecurity Preparedness Consortium
+### 4. National Cybersecurity Preparedness Consortium
 
 - Score: 62 (Medium)
 - Buyer: Department of Homeland Security - FEMA
 - Value: Grant value varies
 - Deadline: 2026-07-31
-- Why: Matches cyber, cybersecurity; deadline in 11 days.
+- Why: Matches cyber, cybersecurity; deadline in 10 days.
 - Official link: https://www.grants.gov/search-results-detail/363010
 
-### 6. CyberNext: Advance Cybersecurity and AI Readiness
+### 5. CyberNext: Advance Cybersecurity and AI Readiness
 
-- Score: 52 (Medium)
+- Score: 62 (Medium)
 - Buyer: U.S. Mission to Albania
 - Value: Grant value varies
-- Deadline: Not specified
-- Why: Matches cyber, cybersecurity.
-- Official link: https://www.grants.gov/search-results-detail/362663
+- Deadline: 2026-08-20
+- Why: Matches cyber, cybersecurity; deadline in 30 days.
+- Official link: https://www.grants.gov/search-results-detail/363249
+
+### 6. Opportunity to Tender - Ground Investigation - Regional Framework Lots (England) - J. Murphy & Sons
+
+- Score: 62 (Medium)
+- Buyer: BIP SOLUTIONS LIMITED
+- Value: GBP 500k
+- Deadline: 2026-07-21
+- Why: Matches penetration testing; marked SME-suitable; value around GBP 500k; deadline in 0 days.
+- Official link: https://www.contractsfinder.service.gov.uk/notice/0207443b-1149-4671-93c1-deeb8cf990ef
 
 ### 7. Cybersecurity Innovation for Cyberinfrastructure
 
@@ -67,7 +67,7 @@ High-confidence matches: 3
 - Buyer: U.S. National Science Foundation
 - Value: Grant value varies
 - Deadline: 2027-01-20
-- Why: Matches cyber, cybersecurity; deadline in 184 days.
+- Why: Matches cyber, cybersecurity; deadline in 183 days.
 - Official link: https://www.grants.gov/search-results-detail/358004
 
 ### 8. National Agreement for the Provision of Digital Forensics Services - (Procurement led by The Forensic Capability Network (FCN - the Authority) on behalf of Dorset Police & Crime Commissioner)
@@ -76,5 +76,5 @@ High-confidence matches: 3
 - Buyer: South West Police Procurement Department (SWPPD)
 - Value: GBP 60.0m
 - Deadline: 2028-10-16
-- Why: Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 819 days.
+- Why: Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 818 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/0d055249-a5f5-4a3f-92ca-a6b8125a70fd
