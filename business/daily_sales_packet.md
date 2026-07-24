@@ -1,6 +1,6 @@
 # CyberTender Radar Daily Sales Packet
 
-Generated: 2026-07-23T08:45:29.690303Z
+Generated: 2026-07-24T08:44:01.548080Z
 
 ## Revenue Target
 
@@ -11,7 +11,7 @@ Generated: 2026-07-23T08:45:29.690303Z
 
 ## Feed Snapshot
 
-- Tracked opportunities: 7.
+- Tracked opportunities: 6.
 - High-confidence opportunities: 3.
 - Largest tracked value: GBP 800.0m.
 - Live feed: https://shmghub.github.io/cybertender-radar/
@@ -24,8 +24,8 @@ Generated: 2026-07-23T08:45:29.690303Z
 - Cyber Security Services 3 from Crown Commercial Service: GBP 800.0m, deadline 2029-02-11. Use for Cyber, Framework, SME-friendly suppliers.
 - IT and Cyber Security Services from Procurement Assist Limited c/o Integrated Facilities Management Bolton Ltd (iFM Bolton): GBP 75.0m, deadline 2029-05-31. Use for Cyber, Framework, SME-friendly suppliers.
 - BLC0109 - Digital Forensic Services DPS from BlueLight Commercial: GBP 60.0m, deadline 2027-02-28. Use for Framework, SME-friendly suppliers.
-- National Cybersecurity Preparedness Consortium from Department of Homeland Security - FEMA: Grant value varies, deadline 2026-07-31. Use for Cyber, Grant suppliers.
 - CyberNext: Advance Cybersecurity and AI Readiness from U.S. Mission to Albania: Grant value varies, deadline 2026-08-20. Use for Cyber, Grant suppliers.
+- Cybersecurity Innovation for Cyberinfrastructure from U.S. National Science Foundation: Grant value varies, deadline 2027-01-20. Use for Cyber, Network, Grant suppliers.
 
 ## Outreach State
 
@@ -59,7 +59,7 @@ Generated: 2026-07-23T08:45:29.690303Z
 
 ## Follow-Ups Due
 
-- No follow-ups due on 2026-07-23.
+- No follow-ups due on 2026-07-24.
 
 ## Next Manual Move
 
