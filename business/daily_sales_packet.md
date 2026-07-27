@@ -1,6 +1,6 @@
 # CyberTender Radar Daily Sales Packet
 
-Generated: 2026-07-24T08:44:01.548080Z
+Generated: 2026-07-27T10:10:44.637485Z
 
 ## Revenue Target
 
@@ -21,7 +21,7 @@ Generated: 2026-07-24T08:44:01.548080Z
 
 ## Best Hooks Today
 
-- Cyber Security Services 3 from Crown Commercial Service: GBP 800.0m, deadline 2029-02-11. Use for Cyber, Framework, SME-friendly suppliers.
+- Cyber Security Services 3 from Government Commercial Agency: GBP 800.0m, deadline 2029-02-11. Use for Cyber, Framework, SME-friendly suppliers.
 - IT and Cyber Security Services from Procurement Assist Limited c/o Integrated Facilities Management Bolton Ltd (iFM Bolton): GBP 75.0m, deadline 2029-05-31. Use for Cyber, Framework, SME-friendly suppliers.
 - BLC0109 - Digital Forensic Services DPS from BlueLight Commercial: GBP 60.0m, deadline 2027-02-28. Use for Framework, SME-friendly suppliers.
 - CyberNext: Advance Cybersecurity and AI Readiness from U.S. Mission to Albania: Grant value varies, deadline 2026-08-20. Use for Cyber, Grant suppliers.
@@ -59,7 +59,7 @@ Generated: 2026-07-24T08:44:01.548080Z
 
 ## Follow-Ups Due
 
-- No follow-ups due on 2026-07-24.
+- No follow-ups due on 2026-07-27.
 
 ## Next Manual Move
 
