@@ -1,8 +1,8 @@
 # CyberTender Radar Daily Brief
 
-Generated: 2026-08-06T09:07:40.625618Z
+Generated: 2026-08-07T07:43:12.200802Z
 
-Tracked opportunities: 9
+Tracked opportunities: 8
 High-confidence matches: 3
 
 ## Top Matches
@@ -13,7 +13,7 @@ High-confidence matches: 3
 - Buyer: Government Commercial Agency
 - Value: GBP 800.0m
 - Deadline: 2029-02-11
-- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 920 days.
+- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 919 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/4c8a6f7a-ea75-4463-b05a-a56c140a7582
 
 ### 2. IT and Cyber Security Services
@@ -22,7 +22,7 @@ High-confidence matches: 3
 - Buyer: Procurement Assist Limited c/o Integrated Facilities Management Bolton Ltd (iFM Bolton)
 - Value: GBP 75.0m
 - Deadline: 2029-05-31
-- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 1029 days.
+- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 1028 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/0540e547-aeb2-4e3a-a165-8dd00c8efb30
 
 ### 3. BLC0109 - Digital Forensic Services DPS
@@ -31,19 +31,10 @@ High-confidence matches: 3
 - Buyer: BlueLight Commercial
 - Value: GBP 60.0m
 - Deadline: 2027-02-28
-- Why: Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 206 days.
+- Why: Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 205 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/d01b3b0e-1813-44f9-9e33-f72dd1f53c30
 
-### 4. 846-NYC-HA Staff Flu Vaccinations
-
-- Score: 64 (Medium)
-- Buyer: The North Yorkshire Council
-- Value: GBP 45k
-- Deadline: 2026-08-14
-- Why: Matches data protection; marked SME-suitable; value around GBP 45k; deadline in 8 days.
-- Official link: https://www.contractsfinder.service.gov.uk/notice/8f95b4c5-e80c-4f15-948a-dec7b33194e0
-
-### 5. The Provision of an Energy Portfolio Management System
+### 4. The Provision of an Energy Portfolio Management System
 
 - Score: 64 (Medium)
 - Buyer: GOVERNMENT COMMERCIAL AGENCY
@@ -52,38 +43,38 @@ High-confidence matches: 3
 - Why: Matches managed service; marked SME-suitable; value around GBP 207k.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/2dce3cbe-7629-4273-8e17-8ed59447be30
 
-### 6. CyberNext: Advance Cybersecurity and AI Readiness
+### 5. CyberNext: Advance Cybersecurity and AI Readiness
 
 - Score: 62 (Medium)
 - Buyer: U.S. Mission to Albania
 - Value: Grant value varies
 - Deadline: 2026-08-20
-- Why: Matches cyber, cybersecurity; deadline in 14 days.
+- Why: Matches cyber, cybersecurity; deadline in 13 days.
 - Official link: https://www.grants.gov/search-results-detail/363249
 
-### 7. Cybersecurity Innovation for Cyberinfrastructure
+### 6. Cybersecurity Innovation for Cyberinfrastructure
 
 - Score: 50 (Medium)
 - Buyer: U.S. National Science Foundation
 - Value: Grant value varies
 - Deadline: 2027-01-20
-- Why: Matches cyber, cybersecurity; deadline in 167 days.
+- Why: Matches cyber, cybersecurity; deadline in 166 days.
 - Official link: https://www.grants.gov/search-results-detail/358004
 
-### 8. Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)
+### 7. Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)
 
 - Score: 50 (Medium)
 - Buyer: U.S. National Science Foundation
 - Value: Grant value varies
 - Deadline: 2027-04-05
-- Why: Matches cyber, cybersecurity; deadline in 242 days.
+- Why: Matches cyber, cybersecurity; deadline in 241 days.
 - Official link: https://www.grants.gov/search-results-detail/361238
 
-### 9. National Agreement for the Provision of Digital Forensics Services - (Procurement led by The Forensic Capability Network (FCN - the Authority) on behalf of Dorset Police & Crime Commissioner)
+### 8. National Agreement for the Provision of Digital Forensics Services - (Procurement led by The Forensic Capability Network (FCN - the Authority) on behalf of Dorset Police & Crime Commissioner)
 
 - Score: 48 (Medium)
 - Buyer: South West Police Procurement Department (SWPPD)
 - Value: GBP 60.0m
 - Deadline: 2028-10-16
-- Why: Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 802 days.
+- Why: Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 801 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/0d055249-a5f5-4a3f-92ca-a6b8125a70fd
