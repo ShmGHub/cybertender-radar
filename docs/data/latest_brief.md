@@ -1,6 +1,6 @@
 # CyberTender Radar Daily Brief
 
-Generated: 2026-08-28T18:45:10.879856Z
+Generated: 2026-08-31T13:56:20.035423Z
 
 Tracked opportunities: 8
 High-confidence matches: 3
@@ -13,7 +13,7 @@ High-confidence matches: 3
 - Buyer: Government Commercial Agency
 - Value: GBP 800.0m
 - Deadline: 2029-02-11
-- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 898 days.
+- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 895 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/4c8a6f7a-ea75-4463-b05a-a56c140a7582
 
 ### 2. IT and Cyber Security Services
@@ -22,7 +22,7 @@ High-confidence matches: 3
 - Buyer: Procurement Assist Limited c/o Integrated Facilities Management Bolton Ltd (iFM Bolton)
 - Value: GBP 75.0m
 - Deadline: 2029-05-31
-- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 1007 days.
+- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 1004 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/0540e547-aeb2-4e3a-a165-8dd00c8efb30
 
 ### 3. BLC0109 - Digital Forensic Services DPS
@@ -31,7 +31,7 @@ High-confidence matches: 3
 - Buyer: BlueLight Commercial
 - Value: GBP 60.0m
 - Deadline: 2027-02-28
-- Why: Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 184 days.
+- Why: Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 181 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/d01b3b0e-1813-44f9-9e33-f72dd1f53c30
 
 ### 4. The Provision of an Energy Portfolio Management System
@@ -49,7 +49,7 @@ High-confidence matches: 3
 - Buyer: Small Business Administration
 - Value: Grant value varies
 - Deadline: 2026-09-04
-- Why: Matches cyber, cybersecurity; marked SME-suitable; deadline in 7 days.
+- Why: Matches cyber, cybersecurity; marked SME-suitable; deadline in 4 days.
 - Official link: https://www.grants.gov/search-results-detail/363586
 
 ### 6. Cybersecurity Innovation for Cyberinfrastructure
@@ -58,7 +58,7 @@ High-confidence matches: 3
 - Buyer: U.S. National Science Foundation
 - Value: Grant value varies
 - Deadline: 2027-01-20
-- Why: Matches cyber, cybersecurity; deadline in 145 days.
+- Why: Matches cyber, cybersecurity; deadline in 142 days.
 - Official link: https://www.grants.gov/search-results-detail/358004
 
 ### 7. Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)
@@ -67,7 +67,7 @@ High-confidence matches: 3
 - Buyer: U.S. National Science Foundation
 - Value: Grant value varies
 - Deadline: 2027-04-05
-- Why: Matches cyber, cybersecurity; deadline in 220 days.
+- Why: Matches cyber, cybersecurity; deadline in 217 days.
 - Official link: https://www.grants.gov/search-results-detail/361238
 
 ### 8. National Agreement for the Provision of Digital Forensics Services - (Procurement led by The Forensic Capability Network (FCN - the Authority) on behalf of Dorset Police & Crime Commissioner)
@@ -76,5 +76,5 @@ High-confidence matches: 3
 - Buyer: South West Police Procurement Department (SWPPD)
 - Value: GBP 60.0m
 - Deadline: 2028-10-16
-- Why: Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 780 days.
+- Why: Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 777 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/0d055249-a5f5-4a3f-92ca-a6b8125a70fd
