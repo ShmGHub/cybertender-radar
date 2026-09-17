@@ -1,6 +1,6 @@
 # CyberTender Radar Daily Brief
 
-Generated: 2026-09-16T11:39:40.872981Z
+Generated: 2026-09-17T11:45:39.726557Z
 
 Tracked opportunities: 9
 High-confidence matches: 4
@@ -13,7 +13,7 @@ High-confidence matches: 4
 - Buyer: Government Commercial Agency
 - Value: GBP 800.0m
 - Deadline: 2029-02-11
-- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 879 days.
+- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 878 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/4c8a6f7a-ea75-4463-b05a-a56c140a7582
 
 ### 2. IT and Cyber Security Services
@@ -22,7 +22,7 @@ High-confidence matches: 4
 - Buyer: Procurement Assist Limited c/o Integrated Facilities Management Bolton Ltd (iFM Bolton)
 - Value: GBP 75.0m
 - Deadline: 2029-05-31
-- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 988 days.
+- Why: Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 987 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/0540e547-aeb2-4e3a-a165-8dd00c8efb30
 
 ### 3. BLC0109 - Digital Forensic Services DPS
@@ -31,7 +31,7 @@ High-confidence matches: 4
 - Buyer: BlueLight Commercial
 - Value: GBP 60.0m
 - Deadline: 2027-02-28
-- Why: Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 165 days.
+- Why: Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 164 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/d01b3b0e-1813-44f9-9e33-f72dd1f53c30
 
 ### 4. Advisory Support for Establishing a National Cybersecurity Operations Center (SOC)
@@ -40,7 +40,7 @@ High-confidence matches: 4
 - Buyer: Bureau of Emerging Threats
 - Value: Grant value varies
 - Deadline: 2026-10-16
-- Why: Matches cyber, cybersecurity, soc; deadline in 30 days.
+- Why: Matches cyber, cybersecurity, soc; deadline in 29 days.
 - Official link: https://www.grants.gov/search-results-detail/363843
 
 ### 5. NHS CFA Market Engagement RFI - Resource & Capacity Management System
@@ -49,7 +49,7 @@ High-confidence matches: 4
 - Buyer: N H S Shared Business Services
 - Value: Value not disclosed
 - Deadline: 2026-09-28
-- Why: Matches cyber, data protection, software; marked SME-suitable; deadline in 12 days.
+- Why: Matches cyber, data protection, software; marked SME-suitable; deadline in 11 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/bc58f4a2-d599-40fc-b710-2f595803bfce
 
 ### 6. Cybersecurity Innovation for Cyberinfrastructure
@@ -58,7 +58,7 @@ High-confidence matches: 4
 - Buyer: U.S. National Science Foundation
 - Value: Grant value varies
 - Deadline: 2027-01-20
-- Why: Matches cyber, cybersecurity; deadline in 126 days.
+- Why: Matches cyber, cybersecurity; deadline in 125 days.
 - Official link: https://www.grants.gov/search-results-detail/358004
 
 ### 7. Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)
@@ -67,7 +67,7 @@ High-confidence matches: 4
 - Buyer: U.S. National Science Foundation
 - Value: Grant value varies
 - Deadline: 2027-04-05
-- Why: Matches cyber, cybersecurity; deadline in 201 days.
+- Why: Matches cyber, cybersecurity; deadline in 200 days.
 - Official link: https://www.grants.gov/search-results-detail/361238
 
 ### 8. National Agreement for the Provision of Digital Forensics Services - (Procurement led by The Forensic Capability Network (FCN - the Authority) on behalf of Dorset Police & Crime Commissioner)
@@ -76,7 +76,7 @@ High-confidence matches: 4
 - Buyer: South West Police Procurement Department (SWPPD)
 - Value: GBP 60.0m
 - Deadline: 2028-10-16
-- Why: Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 761 days.
+- Why: Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 760 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/0d055249-a5f5-4a3f-92ca-a6b8125a70fd
 
 ### 9. GB-Solihull: Sector digital platform for energy, water, and waste industries
@@ -85,5 +85,5 @@ High-confidence matches: 4
 - Buyer: Energy and Utility Skills Limited
 - Value: GBP 1.0m
 - Deadline: 2026-10-16
-- Why: Matches digital, software; marked SME-suitable; value around GBP 1.0m; deadline in 30 days.
+- Why: Matches digital, software; marked SME-suitable; value around GBP 1.0m; deadline in 29 days.
 - Official link: https://www.contractsfinder.service.gov.uk/notice/b177bd63-9334-4c06-82fb-384016aa5040
