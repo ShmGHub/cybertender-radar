@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T11:45:39.726557Z",
+  "generatedAt": "2026-09-18T11:19:35.171940Z",
   "profile": {
     "name": "CyberTender Radar",
     "niche": "Cybersecurity and IT services opportunities for small suppliers",
@@ -7,8 +7,8 @@
     "targetCustomer": "Small cybersecurity consultancies, MSPs, and IT services firms"
   },
   "summary": {
-    "total": 9,
-    "highConfidence": 4,
+    "total": 11,
+    "highConfidence": 6,
     "markets": [
       "UK",
       "US"
@@ -19,13 +19,13 @@
     ],
     "largestValue": 800000000,
     "largestValueLabel": "GBP 800.0m",
-    "nextDeadlineDays": 11
+    "nextDeadlineDays": 10
   },
   "sources": [
     {
       "name": "UK Contracts Finder",
       "status": "ok",
-      "fetched": 269,
+      "fetched": 282,
       "errors": []
     },
     {
@@ -45,6 +45,58 @@
   ],
   "opportunities": [
     {
+      "id": "contracts-finder:490c2177-bd1c-43b0-b35a-896eba9862dc",
+      "source": "UK Contracts Finder",
+      "market": "UK",
+      "sourceKeyword": "cyber security",
+      "title": "Independent Evaluation of the Better Security, Better Care Programme (October 2025 to October 2028)",
+      "buyer": "Better Security Better Care",
+      "status": "Open",
+      "opportunityType": "Contract",
+      "category": "Other community, social and personal services",
+      "description": "Digital Care Hub is seeking an independent evaluation partner to assess the delivery, impact, sustainability and value for money of the Better Security, Better Care (BSBC) programme. Funded by the Department of Health and Social Care, BSBC supports approximately 28,000 CQC-registered adult social care locations in England to improve cyber security, data protection and information governance, including compliance with the Data Security and Protection Toolkit (DSPT). Delivery is led nationally by Digital Care Hub through more than 30 Local Support Organisations, combining central leadership, guidance, training, communications, data analysis and performance management with trusted local support. The supplier will design and deliver a proportionate mixed-method evaluation covering programme governance and delivery, stakeholder engagement, partner effectiveness, reach, changes in awareness and behaviour, adoption of good practice, DSPT outcomes, organisational resilience, wider benefits, cost effectiveness, return on investment and social and economic value. The work should identify lessons, good practice and evidence-based recommendations while providing ongoing insight to support continuous improvement. Key deliverables are an evaluation framework and inception report within three months; ongoing data collection, analysis and stakeholder engagement; monthly progress meetings; an interim report by September 2027; and a final evaluation report, shorter executive report, presentation and dissemination-ready outputs by October 2028. Close-down and dissemination support will continue to March 2029. The proposed contract runs from October 2026 to March 2029, with a maximum budget of GBP 125,000 inclusive of VAT. Bidders must demonstrate strong experience in programme and economic evaluation, publicly funded programmes, mixed-method research, stakeholder engagement and report writing. Knowledge of adult social care, health and care systems, cyber security, digital transformation or information governance is required. Tender responses must include organisation and personnel details, methodology, data collection and analysis plans, delivery timetable, resourcing, quality assurance, risk management, up to three relevant examples, a full pricing schedule, assumptions and proposed social value. Evaluation weightings are: understanding 15%, methodology 35%, experience 20%, project management 10%, social value 10% and price 10%. The supplier must comply with UK GDPR, the Data Protection Act 2018, confidentiality, insurance, procurement, equality and safeguarding requirements. Clarification questions are due by 14 October 2026 and tenders by 18 October 2026. Please see attachment for full specifications.",
+      "publishedDate": "2026-09-18",
+      "deadlineDate": "2026-10-18",
+      "deadlineInDays": 30,
+      "value": 100000,
+      "valueCurrency": "GBP",
+      "valueLabel": "GBP 100k",
+      "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West",
+      "url": "https://www.contractsfinder.service.gov.uk/notice/490c2177-bd1c-43b0-b35a-896eba9862dc",
+      "apiUrl": "https://www.contractsfinder.service.gov.uk/api/rest/2/get_published_notice/json/490c2177-bd1c-43b0-b35a-896eba9862dc",
+      "isSmeSuitable": true,
+      "documents": [
+        "Evaluation 2025-29 Specification.docx"
+      ],
+      "sourceKeywords": [
+        "IT support",
+        "cloud security",
+        "cyber security",
+        "digital security",
+        "incident response",
+        "information security",
+        "network security",
+        "security operations"
+      ],
+      "matchScore": 100,
+      "matchedTerms": [
+        "cyber",
+        "cyber security",
+        "data protection",
+        "gdpr",
+        "digital"
+      ],
+      "confidence": "High",
+      "whyItMatters": "Matches cyber, cyber security, data protection; marked SME-suitable; value around GBP 100k; deadline in 30 days.",
+      "nextStep": "Open the official notice and confirm fit before bidding.",
+      "tags": [
+        "Cyber",
+        "Compliance",
+        "Framework",
+        "SME-friendly"
+      ]
+    },
+    {
       "id": "contracts-finder:4c8a6f7a-ea75-4463-b05a-a56c140a7582",
       "source": "UK Contracts Finder",
       "market": "UK",
@@ -57,7 +109,7 @@
       "description": "Crown Commercial Service (CCS) set up a dynamic purchasing system for a period of 60 months and has invited bidders to request to participate for the Cyber Security Services 3 DPS. This DPS provides central government departments and the wider public sector with the opportunity to procure cyber services from a range of suppliers. The DPS filters are for certification, services, standards and experience. Appointed suppliers will be invited by customers (buyers) to submit tenders for relevant services through a call for competition. This notice is to advise that this DPS has been further extended to 13/02/2029 and based on current spend profiling the estimated total value will remain as GBP 800million.",
       "publishedDate": "2022-12-20",
       "deadlineDate": "2029-02-11",
-      "deadlineInDays": 878,
+      "deadlineInDays": 877,
       "value": 800000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 800.0m",
@@ -84,7 +136,7 @@
         "software"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 878 days.",
+      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 877 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Cyber",
@@ -110,7 +162,7 @@
       "description": "PA invites organisations to participate in a 60-month DPS for the provision of IT and Cyber Security Services. The DPS will be accessible by all current and future Clients of PA. The DPS may be used by all NHS Trusts, Social Housing Providers, Local Authorities, Blue Light Services, Education, Charities and all other contracting authorities that are located in the United Kingdom. Procurement Assist is publishing this Notice of Amendment made pursuant to the original Notice 2023/S 000-014645 to extend the DPS to 31 May 2029. The remaining information in relation to this DPS is unchanged.",
       "publishedDate": "2025-01-10",
       "deadlineDate": "2029-05-31",
-      "deadlineInDays": 987,
+      "deadlineInDays": 986,
       "value": 75000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 75.0m",
@@ -135,7 +187,7 @@
         "software"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 987 days.",
+      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 986 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Cyber",
@@ -144,6 +196,55 @@
       ],
       "sourceLinks": [
         "https://www.delta-esourcing.com/tenders/UK-UK-Bolton:-IT-services:-consulting,-software-development,-Internet-and-support./965WRM954B"
+      ]
+    },
+    {
+      "id": "contracts-finder:b94dec1d-c3c2-4aca-af15-7c5476d9241e",
+      "source": "UK Contracts Finder",
+      "market": "UK",
+      "sourceKeyword": "cyber security",
+      "title": "Procurement Purchase to Pay System",
+      "buyer": "MAXIMUS UK SERVICES LIMITED",
+      "status": "Open",
+      "opportunityType": "Contract",
+      "category": "Software package and information systems",
+      "description": "Maximus is undertaking a procurement exercise to identify a strategic Source-to-Pay (S2P) platform to support the ongoing transformation of procurement processes across the organisation. The solution will be expected to support an integrated procurement lifecycle, including: • Contract Lifecycle Management (CLM) • Strategic Sourcing • Supplier Management • Procure-to-Pay (P2P) • Invoice Automation • Spend Analytics & Reporting SAP will remain the organisation's finance platform and system of record. The primary objectives of this procurement are to improve procurement governance, contract visibility, supplier management, user experience, process compliance and reporting capabilities while maintaining seamless integration with SAP. Key Evaluation Priorities The evaluation will place particular emphasis on: 1. SAP Integration Capability (Critical) 2. Contract Lifecycle Management (CLM) 3. User Experience and Adoption 4. End-to-End Source-to-Pay Functionality 5. Total Cost of Ownership (TCO) Mandatory Requirements: Suppliers will be required to confirm compliance with all of the following mandatory requirements. Failure to meet any of these criteria may result in exclusion from the next stage of the procurement process. SAP Integration (Critical) • Proven, standard integration capability with SAP ECC and/or SAP S/4HANA, SAP by Design. • Ability to integrate core procurement and financial data. • Demonstrable customer references utilising SAP-integrated deployments. Contract Lifecycle Management (CLM) • Provision of a mature Contract Lifecycle Management capability. • Support for contract repository, metadata management, approval workflows, version control and contract renewal management. • Ability to link contracts with suppliers, sourcing events and procurement activity. 3. Global Operating Model • Ability to support multiple countries, currencies, languages and tax jurisdictions. • Experience supporting global or multi-region organisations. 4. Security & Compliance • ISO 27001 certification / Cyber Essentials Plus • GDPR compliance. • Role-based access controls. • Audit logging and traceability of user activity. • Appropriate business continuity and disaster recovery arrangements. 5. Enterprise-Scale Experience • Demonstrated experience delivering S2P and/or P2P solutions for large enterprise organisations. • Ability to provide relevant customer references for organisations of comparable size and complexity. 6. Delivery & Support Capability • Availability of UK-based implementation and support resources. • Ability to provide ongoing support for global business operations. • Proven implementation methodology and support model. Supplier Response Suppliers are requested to confirm whether they meet each of the mandatory requirements outlined above and provide a brief summary of their relevant experience and capabilities.",
+      "publishedDate": "2026-09-17",
+      "deadlineDate": "2026-10-15",
+      "deadlineInDays": 27,
+      "value": 100000,
+      "valueCurrency": "GBP",
+      "valueLabel": "GBP 100k",
+      "region": "",
+      "url": "https://www.contractsfinder.service.gov.uk/notice/b94dec1d-c3c2-4aca-af15-7c5476d9241e",
+      "apiUrl": "https://www.contractsfinder.service.gov.uk/api/rest/2/get_published_notice/json/b94dec1d-c3c2-4aca-af15-7c5476d9241e",
+      "isSmeSuitable": true,
+      "documents": [],
+      "sourceKeywords": [
+        "ISO 27001",
+        "IT support",
+        "cloud security",
+        "cyber security",
+        "digital security",
+        "incident response",
+        "information security",
+        "network security",
+        "security operations"
+      ],
+      "matchScore": 84,
+      "matchedTerms": [
+        "cyber",
+        "iso 27001",
+        "gdpr",
+        "software"
+      ],
+      "confidence": "High",
+      "whyItMatters": "Matches cyber, iso 27001, gdpr; marked SME-suitable; value around GBP 100k; deadline in 27 days.",
+      "nextStep": "Open the official notice and confirm fit before bidding.",
+      "tags": [
+        "Cyber",
+        "Compliance",
+        "SME-friendly"
       ]
     },
     {
@@ -159,7 +260,7 @@
       "description": "This is a republication of OJEU reference 2020/S 203-494905 ( https://ted.europa.eu/en/notice/-/detail/494905-2020 ) which was originally published by the Police and Crime Commissioner for Dorset. The Dynamic Purchasing System has novated from the Police and Crime Commissioner for Dorset to Bluelight Commercial. Bluelight Commercial are leading a Digital Forensics Services Dynamic Purchasing System (DPS), which will be in place for an eight-year period from commencement of the DPS. The Authority and its Customers are seeking to award multiple Service Agreements through the following structure of requirements:- Lot 1A Digital Data Retrieval - Mobile Device Lot 1B Digital Data Retrieval - Computers Lot 2A Complex Digital Data Retrieval - Mobile Device Decrypt & Acquire Lot 2B Complex Digital Data Retrieval - Chip / Data Restoration Lot 2C Complex Digital Data Retrieval - Mobile Device Bespoke Lot 2D Complex Digital Data Retrieval - HDD/Peripheries Repair & Data Restoration Lot 2E Complex Digital Data Retrieval - Mobile Device Peripheries Lot 3 Digital Forensic Investigation & Evaluation Lot 4A Digital Forensic Case Evaluation - Cell Site Analysis Lot 4B Digital Forensic Case Evaluation - Still / Video Image Enhancement Lot 4C Digital Forensic Case Evaluation - Video Production and Presentation Lot 4D Digital Forensic Case Evaluation - Image Comparison - Face Lot 4E Digital Forensic Case Evaluation - Image Comparison - Clothing Lot 4F Digital Forensic Case Evaluation - Image Comparison - Vehicles Lot 4G Digital Forensic Case Evaluation - Image Comparison - Other Lot 4H Digital Forensic Case Evaluation - Audio Enhancement Lot 4I Digital Forensic Case Evaluation - Audio Analysis Lot 4J Digital Forensic Case Evaluation - Audio Voice Comparison Lot 5A Digital Forensics Quality Assurance - PT Trial - Mobile Device DDR Lot 5B Digital Forensics Quality Assurance - PT Trial - Computer DFI Lot 5C Digital Forensics Quality Assurance - GTD / Test Data Production Lot 5D Digital Forensics Quality Assurance - ISO 17020 / 17025 Training Lot 5E Digital Forensics Quality Assurance - Other Training e.g. Crim.PR / Expert Witness Lot 5F Digital Forensics Quality Assurance - Tool Training Lot 5G Digital Forensics Quality Assurance - Method Validation Lot 5H Digital Forensics Quality Assurance - Quality Assurance Consultancy Lot 6 Collection & Delivery (Lots 2A - E & 4A - J only) This is a strategic collaborative national (pan force) procurement, buying once for many, driving quality, standardisation, compliance with legislation and innovation, whilst increasing market capacity and capability. The DPS will provide opportunities for Forensic Service Providers to win business and provide a range of services which are compatible with operational capabilities at any given time. If you already have a place on the Digital Forensic Services...",
       "publishedDate": "2025-01-30",
       "deadlineDate": "2027-02-28",
-      "deadlineInDays": 164,
+      "deadlineInDays": 163,
       "value": 60000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 60.0m",
@@ -179,7 +280,7 @@
         "digital"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 164 days.",
+      "whyItMatters": "Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 163 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Framework",
@@ -202,7 +303,7 @@
       "description": "Advisory Support for Establishing a National Cybersecurity Operations Center (SOC) DFOP0019791 Bureau of Emerging Threats",
       "publishedDate": "2026-09-10",
       "deadlineDate": "2026-10-16",
-      "deadlineInDays": 29,
+      "deadlineInDays": 28,
       "value": null,
       "valueCurrency": "USD",
       "valueLabel": "Grant value varies",
@@ -223,7 +324,7 @@
         "soc"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches cyber, cybersecurity, soc; deadline in 29 days.",
+      "whyItMatters": "Matches cyber, cybersecurity, soc; deadline in 28 days.",
       "nextStep": "Review eligibility and application package on Grants.gov.",
       "tags": [
         "Cyber",
@@ -243,7 +344,7 @@
       "description": "The NHS Counter Fraud Authority (NHSCFA) has a need to ensure visibility and allocation of staffing resources across the organisation. The organisation has many competing demands for work and a diverse workforce with varied skills. A solution is needed to help map staff resources by expertise and skill set (supply) to work demands. Therefore, the NHSCFA is seeking to procure a resource and capacity management solution that initially can be used by the managers within the organisation (circa 40 people) but should be a scalable service or system for further users to be added. The solution must meet UK public sector requirements for data protection, cyber-resilience, operational efficiency, and regulatory compliance. Please register interest and take part in the Market engagment exercise through SAP Ariba: https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110024901?anId=ANONYMOUS",
       "publishedDate": "2026-09-14",
       "deadlineDate": "2026-09-28",
-      "deadlineInDays": 11,
+      "deadlineInDays": 10,
       "value": null,
       "valueCurrency": "GBP",
       "valueLabel": "Value not disclosed",
@@ -263,7 +364,7 @@
         "software"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches cyber, data protection, software; marked SME-suitable; deadline in 11 days.",
+      "whyItMatters": "Matches cyber, data protection, software; marked SME-suitable; deadline in 10 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Cyber",
@@ -288,7 +389,7 @@
       "description": "Cybersecurity Innovation for Cyberinfrastructure 25-531 U.S. National Science Foundation",
       "publishedDate": "2025-01-04",
       "deadlineDate": "2027-01-20",
-      "deadlineInDays": 125,
+      "deadlineInDays": 124,
       "value": null,
       "valueCurrency": "USD",
       "valueLabel": "Grant value varies",
@@ -310,7 +411,7 @@
         "cybersecurity"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches cyber, cybersecurity; deadline in 125 days.",
+      "whyItMatters": "Matches cyber, cybersecurity; deadline in 124 days.",
       "nextStep": "Review eligibility and application package on Grants.gov.",
       "tags": [
         "Cyber",
@@ -331,7 +432,7 @@
       "description": "Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS) 26-503 U.S. National Science Foundation",
       "publishedDate": "2026-02-04",
       "deadlineDate": "2027-04-05",
-      "deadlineInDays": 200,
+      "deadlineInDays": 199,
       "value": null,
       "valueCurrency": "USD",
       "valueLabel": "Grant value varies",
@@ -351,7 +452,7 @@
         "cybersecurity"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches cyber, cybersecurity; deadline in 200 days.",
+      "whyItMatters": "Matches cyber, cybersecurity; deadline in 199 days.",
       "nextStep": "Review eligibility and application package on Grants.gov.",
       "tags": [
         "Cyber",
@@ -371,7 +472,7 @@
       "description": "The Forensic Capability Network (FCN - the Authority) on behalf of Dorset Police & Crime Commissioner are leading and awarding a National Digital Forensics Services arrangement to be available for use by the FCN's customers. The arrangement will be a Dynamic Purchasing System (DPS), which will be in place for an eight-year period from commencement of the DPS. The Authority and its Customers are seeking to award multiple Service Agreements through the following structure of requirements:- Lot 1A Digital Data Retrieval - Mobile Device Lot 1B Digital Data Retrieval - Computers Lot 2A Complex Digital Data Retrieval - Mobile Device Decrypt & Acquire Lot 2B Complex Digital Data Retrieval - Chip / Data Restoration Lot 2C Complex Digital Data Retrieval - Mobile Device Bespoke Lot 2D Complex Digital Data Retrieval - HDD/Peripheries Repair & Data Restoration Lot 2E Complex Digital Data Retrieval - Mobile Device Peripheries Lot 3 Digital Forensic Investigation & Evaluation Lot 4A Digital Forensic Case Evaluation - Cell Site Analysis Lot 4B Digital Forensic Case Evaluation - Still / Video Image Enhancement Lot 4C Digital Forensic Case Evaluation - Video Production and Presentation Lot 4D Digital Forensic Case Evaluation - Image Comparison - Face Lot 4E Digital Forensic Case Evaluation - Image Comparison - Clothing Lot 4F Digital Forensic Case Evaluation - Image Comparison - Vehicles Lot 4G Digital Forensic Case Evaluation - Image Comparison - Other Lot 4H Digital Forensic Case Evaluation - Audio Enhancement Lot 4I Digital Forensic Case Evaluation - Audio Analysis Lot 4J Digital Forensic Case Evaluation - Audio Voice Comparison Lot 5A Digital Forensics Quality Assurance - PT Trial - Mobile Device DDR Lot 5B Digital Forensics Quality Assurance - PT Trial - Computer DFI Lot 5C Digital Forensics Quality Assurance - GTD / Test Data Production Lot 5D Digital Forensics Quality Assurance - ISO 17020 / 17025 Training Lot 5E Digital Forensics Quality Assurance - Other Training e.g. Crim.PR / Expert Witness Lot 5F Digital Forensics Quality Assurance - Tool Training Lot 5G Digital Forensics Quality Assurance - Method Validation Lot 5H Digital Forensics Quality Assurance - Quality Assurance Consultancy Lot 6 Collection & Delivery (Lots 2A - E & 4A - J only) We are pleased to invite you to participate in this procurement (Stage 1 of the DPS the Selection Stage). Upon expressing an interest by \"accepting\" this opportunity you will have full access to the suite of guidance documents located in the \"access documents\" folder in this Bluelight e- tendering Portal and the online Selection Questionnaire. To note this is a completely electronic process and therefore all communications must be made and received via this Bluelight e-tendering portal.",
       "publishedDate": "2020-10-16",
       "deadlineDate": "2028-10-16",
-      "deadlineInDays": 760,
+      "deadlineInDays": 759,
       "value": 60000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 60.0m",
@@ -394,7 +495,7 @@
         "software"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 760 days.",
+      "whyItMatters": "Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 759 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Network",
@@ -410,7 +511,7 @@
       "id": "contracts-finder:b177bd63-9334-4c06-82fb-384016aa5040",
       "source": "UK Contracts Finder",
       "market": "UK",
-      "sourceKeyword": "information security",
+      "sourceKeyword": "digital security",
       "title": "GB-Solihull: Sector digital platform for energy, water, and waste industries",
       "buyer": "Energy and Utility Skills Limited",
       "status": "Open",
@@ -419,7 +520,7 @@
       "description": "NOTE: This notice was updated on 21 August 2026 for the following reason: The expression of interest date has been aligned with the tender submission date of 30th October 2026.(Energy & Utility Skills Group (EUSG) - as the sector's experts and leading voice on workforce development, training, competence, attraction and assurance - is seeking to appoint a strategic digital partner to design and deliver a new, sector-level digital platform. This platform will provide a unified, modern and data-rich entry point into the energy, water, and waste industries, enabling citizens, employers, training providers and partners to interact with the sector in a way that is intuitive, consistent, and fully aligned with future workforce needs. This platform will also provide unrivalled 'supply side' information to enable the EUSG, partners, and governments to strengthen national workforce planning.)",
       "publishedDate": "2026-08-21",
       "deadlineDate": "2026-10-16",
-      "deadlineInDays": 29,
+      "deadlineInDays": 28,
       "value": 1000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 1.0m",
@@ -428,17 +529,13 @@
       "apiUrl": "https://www.contractsfinder.service.gov.uk/api/rest/2/get_published_notice/json/b177bd63-9334-4c06-82fb-384016aa5040",
       "isSmeSuitable": true,
       "documents": [],
-      "sourceKeywords": [
-        "digital security",
-        "information security"
-      ],
       "matchScore": 45,
       "matchedTerms": [
         "digital",
         "software"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches digital, software; marked SME-suitable; value around GBP 1.0m; deadline in 29 days.",
+      "whyItMatters": "Matches digital, software; marked SME-suitable; value around GBP 1.0m; deadline in 28 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "SME-friendly"
