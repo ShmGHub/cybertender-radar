@@ -1,6 +1,6 @@
 # CyberTender Radar Daily Sales Packet
 
-Generated: 2026-10-07T13:28:54.733198Z
+Generated: 2026-10-08T13:34:47.981877Z
 
 ## Revenue Target
 
@@ -11,9 +11,9 @@ Generated: 2026-10-07T13:28:54.733198Z
 
 ## Feed Snapshot
 
-- Tracked opportunities: 10.
-- High-confidence opportunities: 6.
-- Largest tracked value: GBP 800.0m.
+- Tracked opportunities: 3.
+- High-confidence opportunities: 1.
+- Largest tracked value: Value not disclosed.
 - Live feed: https://shmghub.github.io/cybertender-radar/
 - Sample brief: https://shmghub.github.io/cybertender-radar/sample-brief.html
 - Checkout: https://cybertender.gumroad.com/l/msidq
@@ -21,11 +21,9 @@ Generated: 2026-10-07T13:28:54.733198Z
 
 ## Best Hooks Today
 
-- Independent Evaluation of the Better Security, Better Care Programme (October 2025 to October 2028) from Better Security Better Care: GBP 100k, deadline 2026-10-18. Use for Cyber, Compliance, Framework, SME-friendly suppliers.
-- Cyber Security Services 3 from Government Commercial Agency: GBP 800.0m, deadline 2029-02-11. Use for Cyber, Framework, SME-friendly suppliers.
-- IT and Cyber Security Services from Procurement Assist Limited c/o Integrated Facilities Management Bolton Ltd (iFM Bolton): GBP 75.0m, deadline 2029-05-31. Use for Cyber, Framework, SME-friendly suppliers.
-- Procurement Purchase to Pay System from MAXIMUS UK SERVICES LIMITED: GBP 100k, deadline 2026-10-15. Use for Cyber, Compliance, SME-friendly suppliers.
-- BLC0109 - Digital Forensic Services DPS from BlueLight Commercial: GBP 60.0m, deadline 2027-02-28. Use for Framework, SME-friendly suppliers.
+- Advisory Support for Establishing a National Cybersecurity Operations Center (SOC) from Bureau of Emerging Threats: Grant value varies, deadline 2026-10-16. Use for Cyber, Grant suppliers.
+- Cybersecurity Innovation for Cyberinfrastructure (CICI) from U.S. National Science Foundation: Grant value varies, deadline 2027-01-20. Use for Cyber, Network, Grant suppliers.
+- Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS) from U.S. National Science Foundation: Grant value varies, deadline 2027-04-05. Use for Cyber, Grant suppliers.
 
 ## Outreach State
 
@@ -59,7 +57,7 @@ Generated: 2026-10-07T13:28:54.733198Z
 
 ## Follow-Ups Due
 
-- No follow-ups due on 2026-10-07.
+- No follow-ups due on 2026-10-08.
 
 ## Next Manual Move
 
