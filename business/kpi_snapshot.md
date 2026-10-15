@@ -1,6 +1,6 @@
 # CyberTender Radar KPI Snapshot
 
-Generated: 2026-10-14T11:58:07.520520Z
+Generated: 2026-10-15T11:34:32.773317Z
 
 ## Revenue
 
