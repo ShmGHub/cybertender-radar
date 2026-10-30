@@ -1,6 +1,6 @@
 # CyberTender Radar Daily Sales Packet
 
-Generated: 2026-10-29T13:07:02.411118Z
+Generated: 2026-10-30T12:59:48.444401Z
 
 ## Revenue Target
 
@@ -11,8 +11,8 @@ Generated: 2026-10-29T13:07:02.411118Z
 
 ## Feed Snapshot
 
-- Tracked opportunities: 8.
-- High-confidence opportunities: 5.
+- Tracked opportunities: 7.
+- High-confidence opportunities: 4.
 - Largest tracked value: GBP 800.0m.
 - Live feed: https://shmghub.github.io/cybertender-radar/
 - Sample brief: https://shmghub.github.io/cybertender-radar/sample-brief.html
@@ -23,9 +23,9 @@ Generated: 2026-10-29T13:07:02.411118Z
 
 - Cyber Security Services 3 from Government Commercial Agency: GBP 800.0m, deadline 2029-02-11. Use for Cyber, Framework, SME-friendly suppliers.
 - IT and Cyber Security Services from Procurement Assist Limited c/o Integrated Facilities Management Bolton Ltd (iFM Bolton): GBP 75.0m, deadline 2029-05-31. Use for Cyber, Framework, SME-friendly suppliers.
-- Managed IT and Cyber Security Service Provider - Pre-Qualification (Stage 1 of 2) from NORTH EAST AUTISM SOCIETY: GBP 540k, deadline 2026-10-30. Use for Cyber, Managed IT, SME-friendly suppliers.
 - BLC0109 - Digital Forensic Services DPS from BlueLight Commercial: GBP 60.0m, deadline 2027-02-28. Use for Framework, SME-friendly suppliers.
 - Framework for Call-down Technical Assistance - Engineering and Climate-Resilient Infrastructure Advisory Services (BRAVE-IS) from DAI GLOBAL UK LTD: Value not disclosed, deadline 2026-11-09. Use for Network, Framework, SME-friendly suppliers.
+- Cybersecurity Innovation for Cyberinfrastructure (CICI) from U.S. National Science Foundation: Grant value varies, deadline 2027-01-20. Use for Cyber, Network, Grant suppliers.
 
 ## Outreach State
 
@@ -59,7 +59,7 @@ Generated: 2026-10-29T13:07:02.411118Z
 
 ## Follow-Ups Due
 
-- No follow-ups due on 2026-10-29.
+- No follow-ups due on 2026-10-30.
 
 ## Next Manual Move
 
