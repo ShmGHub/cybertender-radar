@@ -1,6 +1,6 @@
 # CyberTender Radar Daily Sales Packet
 
-Generated: 2026-11-04T14:37:27.788157Z
+Generated: 2026-11-05T14:42:20.052090Z
 
 ## Revenue Target
 
@@ -11,7 +11,7 @@ Generated: 2026-11-04T14:37:27.788157Z
 
 ## Feed Snapshot
 
-- Tracked opportunities: 7.
+- Tracked opportunities: 8.
 - High-confidence opportunities: 3.
 - Largest tracked value: GBP 800.0m.
 - Live feed: https://shmghub.github.io/cybertender-radar/
@@ -59,7 +59,7 @@ Generated: 2026-11-04T14:37:27.788157Z
 
 ## Follow-Ups Due
 
-- No follow-ups due on 2026-11-04.
+- No follow-ups due on 2026-11-05.
 
 ## Next Manual Move
 

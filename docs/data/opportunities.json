@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T14:37:27.788157Z",
+  "generatedAt": "2026-11-05T14:42:20.052090Z",
   "profile": {
     "name": "CyberTender Radar",
     "niche": "Cybersecurity and IT services opportunities for small suppliers",
@@ -7,7 +7,7 @@
     "targetCustomer": "Small cybersecurity consultancies, MSPs, and IT services firms"
   },
   "summary": {
-    "total": 7,
+    "total": 8,
     "highConfidence": 3,
     "markets": [
       "UK",
@@ -19,13 +19,13 @@
     ],
     "largestValue": 800000000,
     "largestValueLabel": "GBP 800.0m",
-    "nextDeadlineDays": 5
+    "nextDeadlineDays": 4
   },
   "sources": [
     {
       "name": "UK Contracts Finder",
       "status": "ok",
-      "fetched": 319,
+      "fetched": 321,
       "errors": []
     },
     {
@@ -57,7 +57,7 @@
       "description": "This is a republication of OJEU reference 2020/S 203-494905 ( https://ted.europa.eu/en/notice/-/detail/494905-2020 ) which was originally published by the Police and Crime Commissioner for Dorset. The Dynamic Purchasing System has novated from the Police and Crime Commissioner for Dorset to Bluelight Commercial. Bluelight Commercial are leading a Digital Forensics Services Dynamic Purchasing System (DPS), which will be in place for an eight-year period from commencement of the DPS. The Authority and its Customers are seeking to award multiple Service Agreements through the following structure of requirements:- Lot 1A Digital Data Retrieval - Mobile Device Lot 1B Digital Data Retrieval - Computers Lot 2A Complex Digital Data Retrieval - Mobile Device Decrypt & Acquire Lot 2B Complex Digital Data Retrieval - Chip / Data Restoration Lot 2C Complex Digital Data Retrieval - Mobile Device Bespoke Lot 2D Complex Digital Data Retrieval - HDD/Peripheries Repair & Data Restoration Lot 2E Complex Digital Data Retrieval - Mobile Device Peripheries Lot 3 Digital Forensic Investigation & Evaluation Lot 4A Digital Forensic Case Evaluation - Cell Site Analysis Lot 4B Digital Forensic Case Evaluation - Still / Video Image Enhancement Lot 4C Digital Forensic Case Evaluation - Video Production and Presentation Lot 4D Digital Forensic Case Evaluation - Image Comparison - Face Lot 4E Digital Forensic Case Evaluation - Image Comparison - Clothing Lot 4F Digital Forensic Case Evaluation - Image Comparison - Vehicles Lot 4G Digital Forensic Case Evaluation - Image Comparison - Other Lot 4H Digital Forensic Case Evaluation - Audio Enhancement Lot 4I Digital Forensic Case Evaluation - Audio Analysis Lot 4J Digital Forensic Case Evaluation - Audio Voice Comparison Lot 5A Digital Forensics Quality Assurance - PT Trial - Mobile Device DDR Lot 5B Digital Forensics Quality Assurance - PT Trial - Computer DFI Lot 5C Digital Forensics Quality Assurance - GTD / Test Data Production Lot 5D Digital Forensics Quality Assurance - ISO 17020 / 17025 Training Lot 5E Digital Forensics Quality Assurance - Other Training e.g. Crim.PR / Expert Witness Lot 5F Digital Forensics Quality Assurance - Tool Training Lot 5G Digital Forensics Quality Assurance - Method Validation Lot 5H Digital Forensics Quality Assurance - Quality Assurance Consultancy Lot 6 Collection & Delivery (Lots 2A - E & 4A - J only) This is a strategic collaborative national (pan force) procurement, buying once for many, driving quality, standardisation, compliance with legislation and innovation, whilst increasing market capacity and capability. The DPS will provide opportunities for Forensic Service Providers to win business and provide a range of services which are compatible with operational capabilities at any given time. If you already have a place on the Digital Forensic Services...",
       "publishedDate": "2025-01-30",
       "deadlineDate": "2027-02-28",
-      "deadlineInDays": 116,
+      "deadlineInDays": 115,
       "value": 60000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 60.0m",
@@ -77,7 +77,7 @@
         "digital"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 116 days.",
+      "whyItMatters": "Matches digital forensics, digital; marked SME-suitable; value around GBP 60.0m; deadline in 115 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Framework",
@@ -100,7 +100,7 @@
       "description": "Crown Commercial Service (CCS) set up a dynamic purchasing system for a period of 60 months and has invited bidders to request to participate for the Cyber Security Services 3 DPS. This DPS provides central government departments and the wider public sector with the opportunity to procure cyber services from a range of suppliers. The DPS filters are for certification, services, standards and experience. Appointed suppliers will be invited by customers (buyers) to submit tenders for relevant services through a call for competition. This notice is to advise that this DPS has been further extended to 13/02/2029 and based on current spend profiling the estimated total value will remain as GBP 800million.",
       "publishedDate": "2022-12-20",
       "deadlineDate": "2029-02-11",
-      "deadlineInDays": 830,
+      "deadlineInDays": 829,
       "value": 800000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 800.0m",
@@ -127,7 +127,7 @@
         "software"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 830 days.",
+      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 800.0m; deadline in 829 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Cyber",
@@ -153,7 +153,7 @@
       "description": "PA invites organisations to participate in a 60-month DPS for the provision of IT and Cyber Security Services. The DPS will be accessible by all current and future Clients of PA. The DPS may be used by all NHS Trusts, Social Housing Providers, Local Authorities, Blue Light Services, Education, Charities and all other contracting authorities that are located in the United Kingdom. Procurement Assist is publishing this Notice of Amendment made pursuant to the original Notice 2023/S 000-014645 to extend the DPS to 31 May 2029. The remaining information in relation to this DPS is unchanged.",
       "publishedDate": "2025-01-10",
       "deadlineDate": "2029-05-31",
-      "deadlineInDays": 939,
+      "deadlineInDays": 938,
       "value": 75000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 75.0m",
@@ -178,7 +178,7 @@
         "software"
       ],
       "confidence": "High",
-      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 939 days.",
+      "whyItMatters": "Matches cyber, cyber security, it services; marked SME-suitable; value around GBP 75.0m; deadline in 938 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Cyber",
@@ -202,7 +202,7 @@
       "description": "Cybersecurity Innovation for Cyberinfrastructure (CICI) 25-531 U.S. National Science Foundation",
       "publishedDate": "2025-01-04",
       "deadlineDate": "2027-01-20",
-      "deadlineInDays": 77,
+      "deadlineInDays": 76,
       "value": null,
       "valueCurrency": "USD",
       "valueLabel": "Grant value varies",
@@ -224,7 +224,7 @@
         "cybersecurity"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches cyber, cybersecurity; deadline in 77 days.",
+      "whyItMatters": "Matches cyber, cybersecurity; deadline in 76 days.",
       "nextStep": "Review eligibility and application package on Grants.gov.",
       "tags": [
         "Cyber",
@@ -245,7 +245,7 @@
       "description": "DAI Global UK is seeking proposals from firms or consortia to provide engineering and climate-resilient infrastructure advisory services to the Building Resilience and Addressing Vulnerability to Emergencies - Institutional Strengthening (BRAVE-IS) programme in Pakistan. BRAVE-IS is a multi-year (2026-2029) technical assistance programme funded by the UK Foreign, Commonwealth & Development Office (FCDO). Background Pakistan's infrastructure is highly exposed to floods, extreme heat, drought, landslides and earthquakes. Government has introduced climate and disaster risk requirements into public investment planning, but institutions need specialist engineering support to apply them in how infrastructure is planned, designed, appraised and maintained. Scope BRAVE-IS will appoint a firm or consortium under a Time and Materials call-down framework, from which it can mobilise engineering experts and, where needed, complete delivery teams. Work will be commissioned through individual task requests. Expertise is required in: climate-resilient infrastructure engineering and design; hydrology, hydraulics and flood-risk engineering; water resources, irrigation and drainage; infrastructure planning, appraisal and risk assessment; geospatial, digital and engineering software; and engineering institutional strengthening and capacity development. Support must strengthen, not substitute for, government capacity. Eligibility Applicants must be legally registered in Pakistan and hold valid Pakistan Engineering Council (PEC) registration as a consulting engineering firm. Consortia of up to four members are welcome, led by a single lead member. Personnel will work in Islamabad, Lahore, Karachi, Peshawar and Gilgit, with travel elsewhere in Pakistan as required, and rates are sought for locally based personnel. Contract The initial period runs from date of award to 31 March 2027, extendable subject to programme requirements, performance and FCDO approval. Contracts will be issued by DAI Pakistan (Pvt.) Ltd. No minimum volume of work is guaranteed. How to apply Submit one email to brave-is@dai.com with the subject line \"BRAVE-IS-003 - Proposal - [Firm name]\", attaching two separate PDF files: (1) a technical submission of no more than ten pages, with CVs as an annex, and (2) a financial proposal giving daily fee rates only for five personnel levels. Proposals will be scored 80% technical and 20% financial and must remain valid for 90 days. Key dates Clarification questions: by 29 October 2026, by email to brave-is@dai.com with the subject line \"BRAVE-IS-003 - Clarification Question - [Firm name]\". All questions and responses will be published on Contracts Finder. Proposal deadline: 9 November 2026, 17:00 Pakistan Standard Time (12:00 UK time). Please read the full RFP (reference BRAVE-IS-003) before applying. Late submissions will not be considered. DAI reserves the right to cancel the procurement or make no award.",
       "publishedDate": "2026-10-23",
       "deadlineDate": "2026-11-09",
-      "deadlineInDays": 5,
+      "deadlineInDays": 4,
       "value": null,
       "valueCurrency": "GBP",
       "valueLabel": "Value not disclosed",
@@ -268,11 +268,54 @@
         "software"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches vulnerability, digital, software; marked SME-suitable; deadline in 5 days.",
+      "whyItMatters": "Matches vulnerability, digital, software; marked SME-suitable; deadline in 4 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Network",
         "Framework",
+        "SME-friendly"
+      ]
+    },
+    {
+      "id": "contracts-finder:0f7a1268-f357-40ec-9bf6-fdfa7764715c",
+      "source": "UK Contracts Finder",
+      "market": "UK",
+      "sourceKeyword": "cyber security",
+      "title": "FDIS - Brampton Pump House Remediation - FY2026/27 - Amey Central Region - East",
+      "buyer": "AMEY DEFENCE SERVICES LIMITED",
+      "status": "Open",
+      "opportunityType": "Pipeline",
+      "category": "Construction work, Works for complete or part construction and civil engineering work, Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork, Ancillary works for pipelines and cables",
+      "description": "Central Region - East Brief scope of works (subject to confirmation): A specialist inspection has identified significant defects with the existing pumping station, principally relating to the incoming electrical supply, flooding/water ingress, safe access arrangements and the condition of the pumps. 1. Make safe / maintain isolation 2. Resolve the incoming electrical supply 3. Develop a permanent safe-access solution 4. Address flooding and groundwater ingress 5. Remove and inspect both pumps 6. Undertake wet-well remedial works 7. Investigate Inlet No. 2 8. Review ancillary works 9. Recommission only following remedial works Further details on the attached. Amey have been tasked by the DIO through the FDIS to deliver the RAMS for the Central Region. This notice is a call for competition and there may not be a further notice related to this opportunity. For Amey to accept any EoI it is ESSENTIAL that any subcontractor is: • willing to act as Main Cttr; • a Verified member of Constructionline (G), relevant Wk Cat MUST show that Subctt is possible, and the 'BSAct - Std Con' must be Verified; • capable of working in a BIM Level 2; • compliant with DefStan 05-138; • willing to work with Amey to deliver Soc Val to our Client; ideally, complete the Soc Val Goal within the Constructionline platform. DESIRABLE attributes of our Supply Chain: • have a CSR policy; • have a Bus Cont and Disaster Recovery Plan If successful the subcontractor will need to pass a PQQ, sign up to ADS T and C, and meet the MoD Security Requirements. This future opportunity notice is for Expressions of Interest, BY EMAIL ONLY. Procurement Documentation will follow separately via a link from our e-tender portal (Curtis Fitch). Note 1: The bidder must quote for all aspects of the Works. Note 2: Future works of a similar nature may be negotiated based upon submitted rates. Note 3: Those making an Expression of Interest will be required to sign-up to our 'Sub-contract Agreement' where 'Mini Competitions' or 'Call Offs' will be used to tender works/services. Note 4: For complex projects such as External Wall Insulation installation, Structural works etc. it is a requirement that the bidder must (at Contract Award) carry PI Insurance cover of not less than GBP 1,000,000. Note 5: Those making an EoI will be assessed in accordance with the Public Contract Regulations 2015 i.e. Regulations 57, 58 & 60. ADS expressly reserves the right to require those making an EoI to provide additional information supplementing or clarifying any of the information requested. Note 6: Depending on Amey's annual spend with individual bidders you may be required to either have committed to the Science Based Targets Initiative (SBTi), set SBTi approved near-term targets, or Net Zero targets. This opportunity is also advertised on Constructionline. ADS does not bind itself to accept any tender and is not liable for any costs incurred by those expressing an interest or tendering for this opportunity.",
+      "publishedDate": "2026-11-04",
+      "deadlineDate": null,
+      "deadlineInDays": null,
+      "value": 10000,
+      "valueCurrency": "GBP",
+      "valueLabel": "GBP 10k",
+      "region": "Scotland",
+      "url": "https://www.contractsfinder.service.gov.uk/notice/0f7a1268-f357-40ec-9bf6-fdfa7764715c",
+      "apiUrl": "https://www.contractsfinder.service.gov.uk/api/rest/2/get_published_notice/json/0f7a1268-f357-40ec-9bf6-fdfa7764715c",
+      "isSmeSuitable": true,
+      "documents": [
+        "Brief scope of works - Brampton Pump House Remediation.docx"
+      ],
+      "sourceKeywords": [
+        "cloud security",
+        "cyber security",
+        "digital security",
+        "information security",
+        "network security",
+        "security operations"
+      ],
+      "matchScore": 52,
+      "matchedTerms": [
+        "soc"
+      ],
+      "confidence": "Medium",
+      "whyItMatters": "Matches soc; marked SME-suitable; value around GBP 10k.",
+      "nextStep": "Open the official notice and confirm fit before bidding.",
+      "tags": [
         "SME-friendly"
       ]
     },
@@ -289,7 +332,7 @@
       "description": "Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS) 26-503 U.S. National Science Foundation",
       "publishedDate": "2026-02-04",
       "deadlineDate": "2027-04-05",
-      "deadlineInDays": 152,
+      "deadlineInDays": 151,
       "value": null,
       "valueCurrency": "USD",
       "valueLabel": "Grant value varies",
@@ -310,7 +353,7 @@
         "cybersecurity"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches cyber, cybersecurity; deadline in 152 days.",
+      "whyItMatters": "Matches cyber, cybersecurity; deadline in 151 days.",
       "nextStep": "Review eligibility and application package on Grants.gov.",
       "tags": [
         "Cyber",
@@ -330,7 +373,7 @@
       "description": "The Forensic Capability Network (FCN - the Authority) on behalf of Dorset Police & Crime Commissioner are leading and awarding a National Digital Forensics Services arrangement to be available for use by the FCN's customers. The arrangement will be a Dynamic Purchasing System (DPS), which will be in place for an eight-year period from commencement of the DPS. The Authority and its Customers are seeking to award multiple Service Agreements through the following structure of requirements:- Lot 1A Digital Data Retrieval - Mobile Device Lot 1B Digital Data Retrieval - Computers Lot 2A Complex Digital Data Retrieval - Mobile Device Decrypt & Acquire Lot 2B Complex Digital Data Retrieval - Chip / Data Restoration Lot 2C Complex Digital Data Retrieval - Mobile Device Bespoke Lot 2D Complex Digital Data Retrieval - HDD/Peripheries Repair & Data Restoration Lot 2E Complex Digital Data Retrieval - Mobile Device Peripheries Lot 3 Digital Forensic Investigation & Evaluation Lot 4A Digital Forensic Case Evaluation - Cell Site Analysis Lot 4B Digital Forensic Case Evaluation - Still / Video Image Enhancement Lot 4C Digital Forensic Case Evaluation - Video Production and Presentation Lot 4D Digital Forensic Case Evaluation - Image Comparison - Face Lot 4E Digital Forensic Case Evaluation - Image Comparison - Clothing Lot 4F Digital Forensic Case Evaluation - Image Comparison - Vehicles Lot 4G Digital Forensic Case Evaluation - Image Comparison - Other Lot 4H Digital Forensic Case Evaluation - Audio Enhancement Lot 4I Digital Forensic Case Evaluation - Audio Analysis Lot 4J Digital Forensic Case Evaluation - Audio Voice Comparison Lot 5A Digital Forensics Quality Assurance - PT Trial - Mobile Device DDR Lot 5B Digital Forensics Quality Assurance - PT Trial - Computer DFI Lot 5C Digital Forensics Quality Assurance - GTD / Test Data Production Lot 5D Digital Forensics Quality Assurance - ISO 17020 / 17025 Training Lot 5E Digital Forensics Quality Assurance - Other Training e.g. Crim.PR / Expert Witness Lot 5F Digital Forensics Quality Assurance - Tool Training Lot 5G Digital Forensics Quality Assurance - Method Validation Lot 5H Digital Forensics Quality Assurance - Quality Assurance Consultancy Lot 6 Collection & Delivery (Lots 2A - E & 4A - J only) We are pleased to invite you to participate in this procurement (Stage 1 of the DPS the Selection Stage). Upon expressing an interest by \"accepting\" this opportunity you will have full access to the suite of guidance documents located in the \"access documents\" folder in this Bluelight e- tendering Portal and the online Selection Questionnaire. To note this is a completely electronic process and therefore all communications must be made and received via this Bluelight e-tendering portal.",
       "publishedDate": "2020-10-16",
       "deadlineDate": "2028-10-16",
-      "deadlineInDays": 712,
+      "deadlineInDays": 711,
       "value": 60000000,
       "valueCurrency": "GBP",
       "valueLabel": "GBP 60.0m",
@@ -353,7 +396,7 @@
         "software"
       ],
       "confidence": "Medium",
-      "whyItMatters": "Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 712 days.",
+      "whyItMatters": "Matches digital forensics, digital, it services; marked SME-suitable; value around GBP 60.0m; deadline in 711 days.",
       "nextStep": "Open the official notice and confirm fit before bidding.",
       "tags": [
         "Network",
