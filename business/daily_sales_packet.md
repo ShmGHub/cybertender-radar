@@ -1,6 +1,6 @@
 # CyberTender Radar Daily Sales Packet
 
-Generated: 2026-11-05T14:42:20.052090Z
+Generated: 2026-11-06T14:20:13.552406Z
 
 ## Revenue Target
 
@@ -59,7 +59,7 @@ Generated: 2026-11-05T14:42:20.052090Z
 
 ## Follow-Ups Due
 
-- No follow-ups due on 2026-11-05.
+- No follow-ups due on 2026-11-06.
 
 ## Next Manual Move
 
