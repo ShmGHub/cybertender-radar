@@ -1,6 +1,6 @@
 # CyberTender Radar Daily Sales Packet
 
-Generated: 2026-11-18T15:43:05.089705Z
+Generated: 2026-11-19T15:48:01.493106Z
 
 ## Revenue Target
 
@@ -24,8 +24,8 @@ Generated: 2026-11-18T15:43:05.089705Z
 - BLC0109 - Digital Forensic Services DPS from BlueLight Commercial: GBP 60.0m, deadline 2027-02-28. Use for Framework, SME-friendly suppliers.
 - Cyber Security Services 3 from Government Commercial Agency: GBP 800.0m, deadline 2029-02-11. Use for Cyber, Framework, SME-friendly suppliers.
 - IT and Cyber Security Services from Procurement Assist Limited c/o Integrated Facilities Management Bolton Ltd (iFM Bolton): GBP 75.0m, deadline 2029-05-31. Use for Cyber, Framework, SME-friendly suppliers.
+- Runswick Bay Public wifi design and install from North York Moors National Park Authority: GBP 20k, deadline 2026-12-01. Use for Compliance, Network, SME-friendly suppliers.
 - Cybersecurity Innovation for Cyberinfrastructure (CICI) from U.S. National Science Foundation: Grant value varies, deadline 2027-01-20. Use for Cyber, Network, Grant suppliers.
-- FDIS - Brampton Pump House Remediation - FY2026/27 - Amey Central Region - East from AMEY DEFENCE SERVICES LIMITED: GBP 10k, deadline not specified. Use for SME-friendly suppliers.
 
 ## Outreach State
 
@@ -59,7 +59,7 @@ Generated: 2026-11-18T15:43:05.089705Z
 
 ## Follow-Ups Due
 
-- No follow-ups due on 2026-11-18.
+- No follow-ups due on 2026-11-19.
 
 ## Next Manual Move
 
