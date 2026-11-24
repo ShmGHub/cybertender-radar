@@ -1,6 +1,6 @@
 # CyberTender Radar KPI Snapshot
 
-Generated: 2026-11-23T18:16:37.348121Z
+Generated: 2026-11-24T17:51:04.025462Z
 
 ## Revenue
 
@@ -10,7 +10,7 @@ Generated: 2026-11-23T18:16:37.348121Z
 
 ## Product
 
-- Current feed opportunities: 8
+- Current feed opportunities: 7
 - High-confidence opportunities: 3
 - Largest opportunity value: GBP 800.0m
 
